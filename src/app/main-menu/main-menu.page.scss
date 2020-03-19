@@ -1,0 +1,34 @@
+ion-content {
+  --background: #dcd9d1;
+  --padding-top: 10vh;
+}
+
+ion-button {
+}
+
+ion-grid {
+  --ion-grid-padding: 20px;
+}
+
+.icon {
+  position: fixed;
+
+  bottom: 10px;
+  align-self: end;
+  margin: 20px;
+
+  &--left {
+    left: 0;
+  }
+  &--right {
+    right: 0;
+  }
+}
+
+.btn-text {
+  font-family: 'Permanent Marker', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 38px;
+}

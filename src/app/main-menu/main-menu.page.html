@@ -1,0 +1,41 @@
+<ion-header>
+  <app-header></app-header>
+</ion-header>
+
+<ion-content class="ion-align-items-end">
+  <ion-grid>
+    <ion-row
+      *ngFor="let btnElement of btnElements"
+      class="ion-align-items-center"
+    >
+      <ion-col size="3">
+        <ion-img [src]="btnElement.img"></ion-img>
+      </ion-col>
+      <ion-col>
+        <ion-button
+          expand="block"
+          class="ion-margin-vertical"
+          size="large"
+          color="warning"
+        >
+          <span class="btn-text">{{btnElement.text}}</span>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-buttons slot="start">
+    <ion-back-button></ion-back-button>
+  </ion-buttons>
+  <ion-icon
+    class="icon icon--left"
+    name="chevron-back-circle-outline"
+    size="large"
+    routerLink="back"
+    (click)="onGoBack()"
+  ></ion-icon>
+  <ion-icon
+    class="icon icon--right"
+    name="information-circle-outline"
+    size="large"
+  ></ion-icon>
+</ion-content>
