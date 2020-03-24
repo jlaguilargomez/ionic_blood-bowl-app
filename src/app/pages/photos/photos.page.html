@@ -1,9 +1,11 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>photos</ion-title>
-  </ion-toolbar>
+  <app-header></app-header>
 </ion-header>
 
 <ion-content>
-
+  <app-ribbon-title
+    [inputText]="ribbonText"
+    class="ion-text-center"
+  ></app-ribbon-title>
 </ion-content>
+<app-back-btn></app-back-btn>

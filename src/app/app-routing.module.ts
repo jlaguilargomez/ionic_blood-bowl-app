@@ -9,7 +9,7 @@ const routes: Routes = [
       import('./pages/home/home.module').then(m => m.HomePageModule)
   },
   {
-    path: 'main-menu',
+    path: 'menu',
     loadChildren: () =>
       import('./pages/main-menu/main-menu.module').then(
         m => m.MainMenuPageModule

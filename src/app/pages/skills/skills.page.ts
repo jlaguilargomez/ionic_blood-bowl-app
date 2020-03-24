@@ -7,6 +7,7 @@ import { DataService } from 'src/app/data.service';
   styleUrls: ['./skills.page.scss']
 })
 export class SkillsPage implements OnInit {
+  ribbonText = 'Habilidades';
   constructor(private dataService: DataService) {}
 
   ngOnInit() {

@@ -1,0 +1,18 @@
+.ribbon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4c4032;
+  color: #fff;
+  height: 47px;
+  margin: 20px;
+
+  &__text {
+    text-transform: uppercase;
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    display: flex;
+  }
+}

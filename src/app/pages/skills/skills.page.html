@@ -3,6 +3,16 @@
 </ion-header>
 
 <ion-content>
-  <ion-button *ngFor="" shape="round">Round Button</ion-button>
-  <app-back-btn></app-back-btn>
+  <app-ribbon-title
+    [inputText]="ribbonText"
+    class="ion-text-center"
+  ></app-ribbon-title>
+  <ion-grid>
+    <ion-row>
+      <ion-col> </ion-col>
+    </ion-row>
+  </ion-grid>
+  <!-- <ion-button *ngFor="" shape="round">Round Button</ion-button> -->
 </ion-content>
+
+<app-back-btn></app-back-btn>
