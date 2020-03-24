@@ -10,33 +10,6 @@ export interface SkillType {
   providedIn: 'root'
 })
 export class DataService {
-  skillTypes: SkillType[] = [
-    {
-      type: 'G',
-      id: 'general'
-    },
-    {
-      type: 'F',
-      id: 'fuerza'
-    },
-    {
-      type: 'A',
-      id: 'agilidad'
-    },
-    {
-      type: 'P',
-      id: 'pase'
-    },
-    {
-      type: 'E',
-      id: 'extraordinaria'
-    },
-    {
-      type: 'M',
-      id: 'mutación'
-    }
-  ];
-
   constructor(private http: HttpClient) {}
 
   getSkills() {

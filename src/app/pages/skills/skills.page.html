@@ -9,10 +9,32 @@
   ></app-ribbon-title>
   <ion-grid>
     <ion-row>
-      <ion-col> </ion-col>
+      <ion-col>
+        <ion-button
+          shape="round"
+          color="warning"
+          expand="full"
+          size="large"
+          strong="true"
+          class="ion-margin"
+          >Ver todas</ion-button
+        >
+      </ion-col>
+    </ion-row>
+    <br />
+    <ion-row *ngFor="let skill of loadedSkills">
+      <ion-col>
+        <ion-button
+          shape="round"
+          color="warning"
+          expand="full"
+          size="normal"
+          class="ion-margin-bottom ion-margin-horizontal"
+          >{{skill.id | lowercase}}</ion-button
+        >
+      </ion-col>
     </ion-row>
   </ion-grid>
-  <!-- <ion-button *ngFor="" shape="round">Round Button</ion-button> -->
 </ion-content>
 
 <app-back-btn></app-back-btn>

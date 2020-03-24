@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from 'src/app/data.service';
+import { DataService, SkillType } from 'src/app/data.service';
+import { SkillsService } from './skills.service';
 
 @Component({
   selector: 'app-skills',
@@ -8,11 +9,14 @@ import { DataService } from 'src/app/data.service';
 })
 export class SkillsPage implements OnInit {
   ribbonText = 'Habilidades';
-  constructor(private dataService: DataService) {}
+  loadedSkills: SkillType[];
+
+  constructor(
+    private _dataService: DataService,
+    private _skillsService: SkillsService
+  ) {}
 
   ngOnInit() {
-    this.dataService.getSkills().subscribe(data => {
-      console.log(data);
-    });
+    this.loadedSkills = this._skillsService.skillTypes;
   }
 }
