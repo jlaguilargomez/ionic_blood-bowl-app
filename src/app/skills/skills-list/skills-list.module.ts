@@ -7,7 +7,6 @@ import { IonicModule } from '@ionic/angular';
 import { SkillsListPageRoutingModule } from './skills-list-routing.module';
 
 import { SkillsListPage } from './skills-list.page';
-import { HeaderComponent } from 'src/app/components/header/header.component';
 
 @NgModule({
   imports: [

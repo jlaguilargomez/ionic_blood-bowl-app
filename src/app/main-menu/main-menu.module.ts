@@ -7,10 +7,16 @@ import { IonicModule } from '@ionic/angular';
 import { MainMenuPageRoutingModule } from './main-menu-routing.module';
 
 import { MainMenuPage } from './main-menu.page';
-import { HeaderComponent } from '../components/header/header.component';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
-  imports: [CommonModule, FormsModule, IonicModule, MainMenuPageRoutingModule],
-  declarations: [MainMenuPage, HeaderComponent]
+  imports: [
+    CommonModule,
+    FormsModule,
+    IonicModule,
+    MainMenuPageRoutingModule,
+    SharedModule
+  ],
+  declarations: [MainMenuPage]
 })
 export class MainMenuPageModule {}
