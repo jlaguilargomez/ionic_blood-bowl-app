@@ -5,25 +5,31 @@ const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   {
     path: 'home',
-    loadChildren: () => import('./home/home.module').then(m => m.HomePageModule)
+    loadChildren: () =>
+      import('./pages/home/home.module').then(m => m.HomePageModule)
   },
   {
     path: 'main-menu',
     loadChildren: () =>
-      import('./main-menu/main-menu.module').then(m => m.MainMenuPageModule)
-  },  {
+      import('./pages/main-menu/main-menu.module').then(
+        m => m.MainMenuPageModule
+      )
+  },
+  {
     path: 'skills',
-    loadChildren: () => import('./skills/skills.module').then( m => m.SkillsPageModule)
+    loadChildren: () =>
+      import('./pages/skills/skills.module').then(m => m.SkillsPageModule)
   },
   {
     path: 'photos',
-    loadChildren: () => import('./photos/photos.module').then( m => m.PhotosPageModule)
+    loadChildren: () =>
+      import('./pages/photos/photos.module').then(m => m.PhotosPageModule)
   },
   {
     path: 'teams',
-    loadChildren: () => import('./teams/teams.module').then( m => m.TeamsPageModule)
+    loadChildren: () =>
+      import('./pages/teams/teams.module').then(m => m.TeamsPageModule)
   }
-
 ];
 
 @NgModule({

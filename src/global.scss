@@ -26,3 +26,8 @@
 @import '~@ionic/angular/css/flex-utils.css';
 
 @import url('https://fonts.googleapis.com/css?family=Lato|Permanent+Marker&display=swap');
+
+ion-content {
+  --background: #dcd9d1;
+  --padding-top: 10vh;
+}

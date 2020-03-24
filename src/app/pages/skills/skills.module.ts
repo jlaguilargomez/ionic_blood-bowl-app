@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { SkillsPageRoutingModule } from './skills-routing.module';
 
 import { SkillsPage } from './skills.page';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    SkillsPageRoutingModule
+    SkillsPageRoutingModule,
+    SharedModule
   ],
   declarations: [SkillsPage]
 })
