@@ -1,0 +1,23 @@
+.back-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  background: #9e0e06;
+  border-radius: 1000px;
+  transition: all 0.2s;
+  box-shadow: 1px 1px 2px 2px rgba(#4a4a4a, 0.4);
+  &:hover {
+    transform: translateY(-0.3px);
+    box-shadow: 0.5px 0.5px 1px 1px rgba(#4a4a4a, 0.4);
+  }
+}
+
+ion-icon {
+  font-size: 30px;
+  color: white;
+}

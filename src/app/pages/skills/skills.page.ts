@@ -7,32 +7,6 @@ import { DataService } from 'src/app/data.service';
   styleUrls: ['./skills.page.scss']
 })
 export class SkillsPage implements OnInit {
-  skillTypes: SkillType[] = [
-    {
-      type: 'G',
-      id: 'general'
-    },
-    {
-      type: 'F',
-      id: 'fuerza'
-    },
-    {
-      type: 'A',
-      id: 'agilidad'
-    },
-    {
-      type: 'P',
-      id: 'pase'
-    },
-    {
-      type: 'E',
-      id: 'extraordinaria'
-    },
-    {
-      type: 'M',
-      id: 'mutación'
-    }
-  ];
   constructor(private dataService: DataService) {}
 
   ngOnInit() {
