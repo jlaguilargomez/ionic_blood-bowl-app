@@ -14,17 +14,17 @@ export class MainMenuService {
     {
       img: 'assets/img/main-menu/teams_img.png',
       text: 'equipos',
-      link: ''
+      link: '/teams'
     },
     {
       img: 'assets/img/main-menu/skills_img.png',
       text: 'habilidades',
-      link: ''
+      link: '/skills'
     },
     {
       img: 'assets/img/main-menu/photos_img.png',
       text: 'fotos',
-      link: ''
+      link: '/photos'
     }
   ];
 

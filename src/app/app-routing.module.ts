@@ -3,11 +3,27 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)},
+  {
+    path: 'home',
+    loadChildren: () => import('./home/home.module').then(m => m.HomePageModule)
+  },
   {
     path: 'main-menu',
-    loadChildren: () => import('./main-menu/main-menu.module').then( m => m.MainMenuPageModule)
+    loadChildren: () =>
+      import('./main-menu/main-menu.module').then(m => m.MainMenuPageModule)
+  },  {
+    path: 'skills',
+    loadChildren: () => import('./skills/skills.module').then( m => m.SkillsPageModule)
   },
+  {
+    path: 'photos',
+    loadChildren: () => import('./photos/photos.module').then( m => m.PhotosPageModule)
+  },
+  {
+    path: 'teams',
+    loadChildren: () => import('./teams/teams.module').then( m => m.TeamsPageModule)
+  }
+
 ];
 
 @NgModule({
@@ -16,4 +32,4 @@ const routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
