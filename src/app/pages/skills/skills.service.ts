@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 
 import { SkillType } from './skills';
+import { DataService } from 'src/app/data.service';
 
 @Injectable({
   providedIn: 'root'
@@ -14,7 +15,7 @@ export class SkillsService {
     new SkillType('E', 'extraordinaria', 'extraordinary'),
     new SkillType('M', 'mutacion', 'mutation')
   ];
-  constructor() {}
+  constructor(private _dataService: DataService) {}
 
   get skillTypes() {
     return [...this._skillTypes];
@@ -32,4 +33,6 @@ export class SkillsService {
       return skillSel.id;
     }
   }
+
+  getSkillList(skillUrl: string) {}
 }

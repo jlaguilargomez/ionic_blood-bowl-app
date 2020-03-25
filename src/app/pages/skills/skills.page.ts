@@ -9,7 +9,7 @@ import { SkillsService } from './skills.service';
 })
 export class SkillsPage implements OnInit {
   ribbonText = 'Habilidades';
-  loadedSkills: SkillType[];
+  loadedSkillsType: SkillType[];
 
   constructor(
     private _dataService: DataService,
@@ -17,6 +17,6 @@ export class SkillsPage implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.loadedSkills = this._skillsService.skillTypes;
+    this.loadedSkillsType = this._skillsService.skillTypes;
   }
 }

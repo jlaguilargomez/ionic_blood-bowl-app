@@ -7,6 +7,23 @@
     [inputText]="skillSelected"
     class="ion-text-center"
   ></app-ribbon-title>
+
+  <ion-grid>
+    <ion-row *ngFor="let skillType of loadedSkills">
+      <ion-col>
+        <ion-button
+          shape="round"
+          color="warning"
+          expand="full"
+          size="normal"
+          strong="true"
+          class="ion-margin-bottom ion-margin-horizontal"
+          [routerLink]="[skillType.link]"
+          >{{skillType.id | lowercase}}</ion-button
+        >
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
 
 <app-back-btn></app-back-btn>

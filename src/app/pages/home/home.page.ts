@@ -7,7 +7,9 @@ import { DataService } from '../../data.service';
   styleUrls: ['home.page.scss']
 })
 export class HomePage implements OnInit {
-  constructor() {}
+  constructor(private _dataService: DataService) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this._dataService.getTeams().subscribe(console.log);
+  }
 }
