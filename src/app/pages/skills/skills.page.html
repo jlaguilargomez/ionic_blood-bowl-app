@@ -17,6 +17,7 @@
           size="large"
           strong="true"
           class="ion-margin"
+          routerLink="all"
           >Ver todas</ion-button
         >
       </ion-col>
@@ -29,7 +30,9 @@
           color="warning"
           expand="full"
           size="normal"
+          strong="true"
           class="ion-margin-bottom ion-margin-horizontal"
+          [routerLink]="[skill.link]"
           >{{skill.id | lowercase}}</ion-button
         >
       </ion-col>

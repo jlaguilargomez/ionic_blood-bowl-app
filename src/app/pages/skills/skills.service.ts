@@ -7,16 +7,29 @@ import { SkillType } from './skills';
 })
 export class SkillsService {
   private _skillTypes: SkillType[] = [
-    new SkillType('G', 'general'),
-    new SkillType('F', 'fuerza'),
-    new SkillType('A', 'agilidad'),
-    new SkillType('P', 'pase'),
-    new SkillType('E', 'extraordinaria'),
-    new SkillType('M', 'mutación')
+    new SkillType('G', 'general', 'general'),
+    new SkillType('F', 'fuerza', 'strength'),
+    new SkillType('A', 'agilidad', 'agility'),
+    new SkillType('P', 'pase', 'pass'),
+    new SkillType('E', 'extraordinaria', 'extraordinary'),
+    new SkillType('M', 'mutacion', 'mutation')
   ];
   constructor() {}
 
   get skillTypes() {
     return [...this._skillTypes];
+  }
+
+  getSkillId(skillUrl: string) {
+    if (skillUrl === 'all') {
+      return 'todas';
+    } else {
+      const skillSel = this.skillTypes.find(elem => {
+        console.log(elem.link);
+        // tslint:disable-next-line: no-unused-expression
+        return elem.link === skillUrl;
+      });
+      return skillSel.id;
+    }
   }
 }
