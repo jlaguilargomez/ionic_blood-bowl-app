@@ -9,9 +9,16 @@ const routes: Routes = [
     component: SkillsPage
   },
   {
-    path: ':skillId',
+    path: 'list/:skillTypeId',
     loadChildren: () =>
       import('./skill-list/skill-list.module').then(m => m.SkillListPageModule)
+  },
+  {
+    path: 'detail/:skillId',
+    loadChildren: () =>
+      import('./skill-detail/skill-detail.module').then(
+        m => m.SkillDetailPageModule
+      )
   }
 ];
 

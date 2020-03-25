@@ -4,13 +4,13 @@
 
 <ion-content>
   <app-ribbon-title
-    [inputText]="skillSelected"
+    [inputText]="skillTypeSelected"
     class="ion-text-center"
   ></app-ribbon-title>
 
   <ion-grid>
-    <ion-row *ngFor="let skillType of loadedSkills">
-      <ion-col>
+    <ion-row *ngFor="let skill of loadedSkills">
+      <ion-col size="8" offset="2">
         <ion-button
           shape="round"
           color="warning"
@@ -18,8 +18,8 @@
           size="normal"
           strong="true"
           class="ion-margin-bottom ion-margin-horizontal"
-          [routerLink]="[skillType.link]"
-          >{{skillType.name_es | lowercase}}</ion-button
+          (click)="onSelectSkill(skill.name_en)"
+          >{{skill.name_es }}</ion-button
         >
       </ion-col>
     </ion-row>

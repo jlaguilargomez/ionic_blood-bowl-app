@@ -2,10 +2,12 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { SkillData, TeamData } from './data.model';
+import { map, filter, find } from 'rxjs/operators';
 
 export interface SkillType {
   type: string;
   id: string;
+  link: string;
 }
 
 @Injectable({
@@ -16,6 +18,11 @@ export class DataService {
 
   getSkills(): Observable<any> {
     return this.http.get('https://blood-bowl-app.firebaseio.com/skills.json');
+  }
+
+  getSkill(id) {
+    console.log('funciona');
+    return this.getSkills().pipe(map(el => el + 10));
   }
 
   getTeams(): Observable<any> {
