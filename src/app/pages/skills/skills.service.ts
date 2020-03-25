@@ -2,6 +2,9 @@ import { Injectable } from '@angular/core';
 
 import { SkillType } from './skills';
 import { DataService } from 'src/app/data.service';
+import { SkillData } from 'src/app/data.model';
+import { map } from 'rxjs/operators';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -21,12 +24,11 @@ export class SkillsService {
     return [...this._skillTypes];
   }
 
-  getSkillId(skillUrl: string) {
+  public getSkillId(skillUrl: string) {
     if (skillUrl === 'all') {
       return 'todas';
     } else {
       const skillSel = this.skillTypes.find(elem => {
-        console.log(elem.link);
         // tslint:disable-next-line: no-unused-expression
         return elem.link === skillUrl;
       });
@@ -34,5 +36,33 @@ export class SkillsService {
     }
   }
 
-  getSkillList(skillUrl: string) {}
+  private getSkillType(skillUrl: string) {
+    if (skillUrl === 'all') {
+      return 'ALL';
+    } else {
+      const skillSel = this.skillTypes.find(elem => {
+        // tslint:disable-next-line: no-unused-expression
+        return elem.link === skillUrl;
+      });
+      return skillSel.type;
+    }
+  }
+
+  public getSkillList(skillUrl: string): Observable<SkillData[]> {
+    const skillType = this.getSkillType(skillUrl);
+    console.log(skillType);
+
+    return this._dataService.getSkills().pipe(
+      // del array de habilidades, filtro los que necesite en función del tipo seleccionado
+      map(skillList => {
+        if (skillType === 'ALL') {
+          return skillList;
+        } else {
+          return skillList.filter(skills => {
+            return skills.type === skillType;
+          });
+        }
+      })
+    );
+  }
 }

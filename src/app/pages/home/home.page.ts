@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../../data.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +6,7 @@ import { DataService } from '../../data.service';
   styleUrls: ['home.page.scss']
 })
 export class HomePage implements OnInit {
-  constructor(private _dataService: DataService) {}
+  constructor() {}
 
-  ngOnInit() {
-    this._dataService.getTeams().subscribe(console.log);
-  }
+  ngOnInit() {}
 }
