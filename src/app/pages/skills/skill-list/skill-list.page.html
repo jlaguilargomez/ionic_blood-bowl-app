@@ -18,7 +18,7 @@
           size="normal"
           strong="true"
           class="ion-margin-bottom ion-margin-horizontal"
-          (click)="onSelectSkill(skill.name_en)"
+          [routerLink]="['../../../detail/', skill.name_en]"
           >{{skill.name_es }}</ion-button
         >
       </ion-col>

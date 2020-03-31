@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription, Observable } from 'rxjs';
 import { map, filter } from 'rxjs/operators';
 
@@ -20,6 +20,7 @@ export class SkillListPage implements OnInit, OnDestroy {
   loadedSkills: Observable<SkillData[]>;
 
   constructor(
+    private _router: Router,
     private _activatedRoute: ActivatedRoute,
     private skillsService: SkillsService,
     private store: Store,
@@ -41,7 +42,10 @@ export class SkillListPage implements OnInit, OnDestroy {
   ngOnDestroy() {}
 
   onSelectSkill(skill: string) {
-    // console.log(skill);
-    this._navController.navigateForward('/1');
+    console.log(skill);
+    this._router.navigate(['../../details/2'], {
+      relativeTo: this._activatedRoute.root
+    });
+    // this._navController.navigateForward('/1');
   }
 }
