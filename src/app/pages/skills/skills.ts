@@ -1,3 +1,7 @@
 export class SkillType {
-  constructor(public type: string, public id: string, public link: string) {}
+  constructor(
+    public id: string,
+    public name_es: string,
+    public name_en: string
+  ) {}
 }

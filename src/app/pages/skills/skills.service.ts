@@ -3,8 +3,8 @@ import { Injectable } from '@angular/core';
 import { SkillType } from './skills';
 import { Store } from 'src/app/store.service';
 import { SkillData } from 'src/app/data.model';
-import { map } from 'rxjs/operators';
-import { Observable } from 'rxjs';
+import { map, filter } from 'rxjs/operators';
+import { Observable, Subscription } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -18,10 +18,36 @@ export class SkillsService {
     new SkillType('E', 'extraordinaria', 'extraordinary'),
     new SkillType('M', 'mutacion', 'mutation')
   ];
-  constructor(private _dataService: Store) {}
+  constructor(private store: Store) {}
 
   get skillTypes() {
     return [...this._skillTypes];
+  }
+
+  getSkillType(url: string) {
+    if (url === 'all') {
+      return null;
+    } else {
+      const skillObj = this._skillTypes.find(
+        skillType => skillType.name_en === url
+      );
+      return skillObj;
+    }
+  }
+
+  getListOfSkills(skillType: SkillType) {
+    console.log(skillType);
+    if (skillType === null) {
+      const skills$ = this.store.skillData$;
+      return skills$;
+      console.log('todas');
+    } else {
+      const skills$ = this.store.skillData$.pipe(
+        map((data: SkillData[]) => data.filter(el => el.type === skillType.id))
+      );
+      return skills$;
+      console.log('filtradas');
+    }
   }
 
   // public getSkillId(skillUrl: string) {

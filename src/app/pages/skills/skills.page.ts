@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { SkillType, Store } from 'src/app/store.service';
+import { Store } from 'src/app/store.service';
 import { SkillsService } from './skills.service';
+import { SkillType } from './skills';
 
 @Component({
   selector: 'app-skills',

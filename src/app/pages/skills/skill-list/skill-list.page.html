@@ -4,12 +4,12 @@
 
 <ion-content>
   <app-ribbon-title
-    [inputText]="skillTypeSelected.id"
+    [inputText]="skillTypeSelected ? skillTypeSelected.name_es : 'TODAS'"
     class="ion-text-center"
   ></app-ribbon-title>
 
   <ion-grid>
-    <ion-row *ngFor="let skill of loadedSkills">
+    <ion-row *ngFor="let skill of loadedSkills | async">
       <ion-col size="8" offset="2">
         <ion-button
           shape="round"

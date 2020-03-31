@@ -18,13 +18,13 @@ export class SkillDetailPage implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.subscription$ = this._activatedRoute.params.subscribe(data =>
-      console.log(data.skillId)
-    );
-    this._dataService
-      .getSkills()
-      .pipe(map(el => el + '10'))
-      .subscribe(data => console.log(data));
+    // this.subscription$ = this._activatedRoute.params.subscribe(data =>
+    //   console.log(data.skillId)
+    // );
+    // this._dataService
+    //   .getSkills()
+    //   .pipe(map(el => el + '10'))
+    //   .subscribe(data => console.log(data));
     // this._dataService.getSkill('pass').subscribe(data => console.log(data));
   }
 }
