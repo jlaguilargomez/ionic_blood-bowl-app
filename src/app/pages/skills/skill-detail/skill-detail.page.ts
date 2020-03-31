@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { DataService } from 'src/app/data.service';
-import { pipe, map } from 'rxjs/operators';
+import { Store } from 'src/app/store.service';
+import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-skill-detail',
@@ -14,7 +14,7 @@ export class SkillDetailPage implements OnInit {
 
   constructor(
     private _activatedRoute: ActivatedRoute,
-    private _dataService: DataService
+    private _dataService: Store
   ) {}
 
   ngOnInit() {

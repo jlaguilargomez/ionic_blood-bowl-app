@@ -13,7 +13,7 @@ export interface SkillType {
 @Injectable({
   providedIn: 'root'
 })
-export class DataService {
+export class Store {
   constructor(private http: HttpClient) {}
 
   getSkills(): Observable<any> {

@@ -5,7 +5,7 @@ import { map } from 'rxjs/operators';
 
 import { SkillsService } from '../skills.service';
 import { SkillData } from 'src/app/data.model';
-import { DataService } from 'src/app/data.service';
+import { Store } from 'src/app/store.service';
 import { NavController } from '@ionic/angular';
 
 @Component({
@@ -21,7 +21,7 @@ export class SkillListPage implements OnInit, OnDestroy {
   constructor(
     private _activatedRoute: ActivatedRoute,
     private _skillsService: SkillsService,
-    private _dataService: DataService,
+    private _dataService: Store,
     private _navController: NavController
   ) {}
 

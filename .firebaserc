@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "blood-bowl-app": {
+      "hosting": {
+        "app": [
+          "blood-bowl-app"
+        ]
+      }
+    }
+  }
+}

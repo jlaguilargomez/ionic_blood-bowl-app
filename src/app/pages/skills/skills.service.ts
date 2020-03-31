@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 
 import { SkillType } from './skills';
-import { DataService } from 'src/app/data.service';
+import { Store } from 'src/app/store.service';
 import { SkillData } from 'src/app/data.model';
 import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
@@ -18,7 +18,7 @@ export class SkillsService {
     new SkillType('E', 'extraordinaria', 'extraordinary'),
     new SkillType('M', 'mutacion', 'mutation')
   ];
-  constructor(private _dataService: DataService) {}
+  constructor(private _dataService: Store) {}
 
   get skillTypes() {
     return [...this._skillTypes];
