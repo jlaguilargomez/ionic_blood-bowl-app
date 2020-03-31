@@ -1,5 +1,3 @@
-import { NumberSymbol } from '@angular/common';
-
 export interface SkillData {
   description: string;
   name_en: string;

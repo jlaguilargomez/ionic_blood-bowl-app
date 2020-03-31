@@ -5,7 +5,7 @@ import { map } from 'rxjs/operators';
 
 import { SkillsService } from '../skills.service';
 import { SkillData } from 'src/app/data.model';
-import { Store } from 'src/app/store.service';
+import { Store, SkillType } from 'src/app/store.service';
 import { NavController } from '@ionic/angular';
 
 @Component({
@@ -14,33 +14,26 @@ import { NavController } from '@ionic/angular';
   styleUrls: ['./skill-list.page.scss']
 })
 export class SkillListPage implements OnInit, OnDestroy {
-  skillTypeSelected: string;
+  skillTypeSelected: SkillType;
   subscription$: Subscription;
   loadedSkills: SkillData[];
 
   constructor(
     private _activatedRoute: ActivatedRoute,
-    private _skillsService: SkillsService,
-    private _dataService: Store,
+    private skillsService: SkillsService,
+    private store: Store,
     private _navController: NavController
   ) {}
 
   ngOnInit() {
-    this.subscription$ = this._activatedRoute.params.subscribe(data => {
-      this.skillTypeSelected =
-        'Habilidades: ' + this._skillsService.getSkillId(data.skillTypeId);
-      this._skillsService
-        .getSkillList(data.skillTypeId)
-        .subscribe(skillSelected => {
-          console.log(skillSelected);
-          this.loadedSkills = skillSelected;
-        });
-    });
+    const url = this._activatedRoute.snapshot.params.skillTypeId;
+    const skillObj = this.skillsService.skillTypes.find(
+      skillType => skillType.link === url
+    );
+    this.skillTypeSelected = skillObj;
   }
 
-  ngOnDestroy() {
-    this.subscription$.unsubscribe();
-  }
+  ngOnDestroy() {}
 
   onSelectSkill(skill: string) {
     // console.log(skill);

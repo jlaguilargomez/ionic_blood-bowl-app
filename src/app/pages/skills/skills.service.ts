@@ -24,45 +24,45 @@ export class SkillsService {
     return [...this._skillTypes];
   }
 
-  public getSkillId(skillUrl: string) {
-    if (skillUrl === 'all') {
-      return 'todas';
-    } else {
-      const skillSel = this.skillTypes.find(elem => {
-        // tslint:disable-next-line: no-unused-expression
-        return elem.link === skillUrl;
-      });
-      return skillSel.id;
-    }
-  }
+  // public getSkillId(skillUrl: string) {
+  //   if (skillUrl === 'all') {
+  //     return 'todas';
+  //   } else {
+  //     const skillSel = this.skillTypes.find(elem => {
+  //       // tslint:disable-next-line: no-unused-expression
+  //       return elem.link === skillUrl;
+  //     });
+  //     return skillSel.id;
+  //   }
+  // }
 
-  private getSkillType(skillUrl: string) {
-    if (skillUrl === 'all') {
-      return 'ALL';
-    } else {
-      const skillSel = this.skillTypes.find(elem => {
-        // tslint:disable-next-line: no-unused-expression
-        return elem.link === skillUrl;
-      });
-      return skillSel.type;
-    }
-  }
+  // private getSkillType(skillUrl: string) {
+  //   if (skillUrl === 'all') {
+  //     return 'ALL';
+  //   } else {
+  //     const skillSel = this.skillTypes.find(elem => {
+  //       // tslint:disable-next-line: no-unused-expression
+  //       return elem.link === skillUrl;
+  //     });
+  //     return skillSel.type;
+  //   }
+  // }
 
-  public getSkillList(skillUrl: string): Observable<SkillData[]> {
-    const skillType = this.getSkillType(skillUrl);
-    console.log(skillType);
+  // public getSkillList(skillUrl: string): Observable<SkillData[]> {
+  //   const skillType = this.getSkillType(skillUrl);
+  //   console.log(skillType);
 
-    return this._dataService.getSkills().pipe(
-      // del array de habilidades, filtro los que necesite en función del tipo seleccionado
-      map(skillList => {
-        if (skillType === 'ALL') {
-          return skillList;
-        } else {
-          return skillList.filter(skills => {
-            return skills.type === skillType;
-          });
-        }
-      })
-    );
-  }
+  //   return this._dataService.getSkills().pipe(
+  //     // del array de habilidades, filtro los que necesite en función del tipo seleccionado
+  //     map(skillList => {
+  //       if (skillType === 'ALL') {
+  //         return skillList;
+  //       } else {
+  //         return skillList.filter(skills => {
+  //           return skills.type === skillType;
+  //         });
+  //       }
+  //     })
+  //   );
+  // }
 }
