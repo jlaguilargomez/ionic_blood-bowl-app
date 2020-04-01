@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Subscription } from 'rxjs';
+import { Subscription, Observable } from 'rxjs';
 import { Store } from 'src/app/store.service';
 import { map } from 'rxjs/operators';
+import { SkillsService } from '../skills.service';
+import { SkillData } from 'src/app/data.model';
 
 @Component({
   selector: 'app-skill-detail',
@@ -10,21 +12,37 @@ import { map } from 'rxjs/operators';
   styleUrls: ['./skill-detail.page.scss']
 })
 export class SkillDetailPage implements OnInit {
-  subscription$: Subscription;
+  selectedSkill: string;
+  skillName: string;
+  skillDescription: string;
 
   constructor(
     private _activatedRoute: ActivatedRoute,
-    private _dataService: Store
+    private _skillService: SkillsService
   ) {}
 
   ngOnInit() {
-    // this.subscription$ = this._activatedRoute.params.subscribe(data =>
-    //   console.log(data.skillId)
-    // );
-    // this._dataService
-    //   .getSkills()
-    //   .pipe(map(el => el + '10'))
-    //   .subscribe(data => console.log(data));
-    // this._dataService.getSkill('pass').subscribe(data => console.log(data));
+    // tslint:disable-next-line: no-string-literal
+    this.selectedSkill = this._activatedRoute.snapshot.params['skillId'];
+
+    this.getSkillEsName();
+
+    this.getSkillDescription();
+  }
+
+  private getSkillEsName() {
+    this._skillService
+      .getSkillSelectedData(this.selectedSkill)
+      .subscribe(res => {
+        this.skillName = res.name_es;
+      });
+  }
+
+  private getSkillDescription() {
+    this._skillService
+      .getSkillSelectedData(this.selectedSkill)
+      .subscribe(res => {
+        this.skillDescription = res.description;
+      });
   }
 }

@@ -2,4 +2,16 @@
   <app-header></app-header>
 </ion-header>
 
-<ion-content> </ion-content>
+<ion-content
+  ><app-ribbon-title
+    [inputText]="skillName"
+    class="ion-text-center"
+  ></app-ribbon-title>
+  <ion-card class="ion-padding">
+    <ion-card-content>
+      <p>{{skillDescription}}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<app-back-btn></app-back-btn>
