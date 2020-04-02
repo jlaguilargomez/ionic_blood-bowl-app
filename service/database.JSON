@@ -501,7 +501,8 @@
           "improvements": {
             "normal": ["G"],
             "double": ["A", "F", "P"]
-          }
+          },
+          "player-img": ""
         },
         {
           "position": "Lanzadora",
@@ -517,7 +518,8 @@
           "improvements": {
             "normal": ["G", "P"],
             "double": ["A", "F"]
-          }
+          },
+          "player-img": ""
         },
         {
           "position": "Receptora",
@@ -533,7 +535,8 @@
           "improvements": {
             "normal": ["G", "A"],
             "double": ["F", "P"]
-          }
+          },
+          "player-img": ""
         },
         {
           "position": "Blitzer",
@@ -549,17 +552,18 @@
           "improvements": {
             "normal": ["G", "F"],
             "double": ["A", "P"]
-          }
+          },
+          "player-img": ""
         }
       ],
       "team-img": "https://www.thenaf.net/wp-content/uploads/2016/03/amazon-team.jpg",
       "strengths": [
         "Todas empiezan con Esquivar",
-        "Jugadoras y rerolls baratos",
+        "Jugadoras y rerrolls baratos",
         "4 Blitzers con placar-esquivar"
       ],
       "weaknesses": ["Armadura 7", "Skills más bien bajos"],
-      "overview": "Los equipos de amazonas son un equipo con una excelente movilidad, debido a que todas las jugadoras empiezan con la habilidad de esquivar. Este hecho también hace que se mantengan de pie con una cara más del dado cuando las placan, a no ser que las plaque alguien con placaje defensivo. Otra ventaja es la posibilidad de tener desde el comienzo 4 blitzers con placar y esquivar, que además acceden a subidas de fuerza de normal. Todo esto con la enorme ventaja de que las jugadoras amazonas son bastante baratas, con lo que puedes montarte un equipo completo sin renunciar a nada desde el primer momento, además, los rerolls también son bastante baratos. Por contra, las amazonas tienen la armadura 7, lo cual las hace frágiles si alguien consigue placarlas. En cuanto al resto de stats, no destacan en nada. Todas tienen fuerza 3, agilidad 3 y mueven 6, como un linea cualquiera. Lo que diferencia los posicionales es la habilidad con la que empiezan y a las que tienen acceso. Son stats un poco pobres si tenemos en cuenta que tienen armadura 7, pero eso se ve compensado con la habilidad esquivar y su precio. Hay que tener en cuenta que en unos cuantos partidos, el equipo de amazonas podrá tener todas sus jugadoras con placar y esquivar, y sus 4 blitzers acceden a subidas de fuerza lo que puede convertirlas en un equipo muy duro de pelar pese a su armadura."
+      "overview": "Los equipos de amazonas son un equipo con una excelente movilidad, debido a que todas las jugadoras empiezan con la habilidad de esquivar. Este hecho también hace que se mantengan de pie con una cara más del dado cuando las placan, a no ser que las plaque alguien con placaje defensivo. Otra ventaja es la posibilidad de tener desde el comienzo 4 blitzers con placar y esquivar, que además acceden a subidas de fuerza de normal. Todo esto con la enorme ventaja de que las jugadoras amazonas son bastante baratas, con lo que puedes montarte un equipo completo sin renunciar a nada desde el primer momento, además, los rerrolls también son bastante baratos. Por contra, las amazonas tienen la armadura 7, lo cual las hace frágiles si alguien consigue placarlas. En cuanto al resto de stats, no destacan en nada. Todas tienen fuerza 3, agilidad 3 y mueven 6, como un linea cualquiera. Lo que diferencia los posicionales es la habilidad con la que empiezan y a las que tienen acceso. Son stats un poco pobres si tenemos en cuenta que tienen armadura 7, pero eso se ve compensado con la habilidad esquivar y su precio. Hay que tener en cuenta que en unos cuantos partidos, el equipo de amazonas podrá tener todas sus jugadoras con placar y esquivar, y sus 4 blitzers acceden a subidas de fuerza lo que puede convertirlas en un equipo muy duro de pelar pese a su armadura."
     },
     {
       "id": "2",
@@ -580,7 +584,8 @@
           "improvements": {
             "normal": ["G"],
             "double": ["A", "F", "P"]
-          }
+          },
+          "player-img": ""
         },
         {
           "position": "Defensa enano del caos",
@@ -596,7 +601,8 @@
           "improvements": {
             "normal": ["G", "F"],
             "double": ["A", "P", "M"]
-          }
+          },
+          "player-img": ""
         },
         {
           "position": "Centauro toro",
@@ -612,7 +618,8 @@
           "improvements": {
             "normal": ["G", "F"],
             "double": ["A", "P"]
-          }
+          },
+          "player-img": ""
         },
         {
           "position": "Minotauro",
@@ -635,7 +642,8 @@
           "improvements": {
             "normal": ["F"],
             "double": ["G", "A", "P", "M"]
-          }
+          },
+          "player-img": ""
         }
       ],
       "team-img": "http://www.coolminiornot.com/pics/pics6/img404bf0254b9f7.jpg",
@@ -647,64 +655,553 @@
       "weaknesses": [
         "Baja agilidad",
         "Sin ballcarrier con habilidades",
-        "Rerolls caros"
+        "Rerrolls caros"
       ],
-      "overview": ""
+      "overview": "Los Enanos del Caos son una mezcla perfecta de contundencia, dureza y solidez. La posibilidad de empezar con dos centauros, con movimiento 6 y fuerza 4 es un buen comienzo. Además su armadura 9 y cabeza dura hace muy difícil sacarlos del campo. Después tenemos los 6 enanos del caos. Calcados a un defensa enano de toda la vida, pero con dobles acceden a mutaciones, lo cual es un muy buen punto a favor, y lo más importante, empezamos con 6 jugadores con placar. Además de esto, tenemos la posibilidad de alinear un minotauro. Con su fuerza 5, cuernos y Furia, un bicho a tener en cuenta. Para acabar de rellenar este equipo, disponemos de los hobgoblins. Jugadores baratos que dan el pego para rellenar los puestos que nos faltaban. Como contras para elegir este equipo, podríamos citar la baja agilidad de los centauros y enanos. De entrada no deberían ser nuestra primera elección a la hora de llevar el balón. Desgraciadamente, los únicos que tienen agilidad suficiente para llevar a cabo esa tarea son los Hobgoblins, que para más desgracia empiezan sin habilidades y tienen armadura 7. Además, la media de velocidad de este equipo no es nada espectacular, y los rerrolls para este equipo son bastante caros.Pese a lo comentado, es un buen equipo para jugadores novatos, ya que tiene una buena mezcla de  jugadores, y es un equipo muy sólido. Empezamos con 6 jugadores con placar, uno de los Big Guys más temidos del juego y 2 centauros duros y bastante rápidos."
     },
     {
       "id": "3",
       "team": "Chaos Pact Teams",
       "logo": "https://bbtactics.com/images/chaospact.png",
-      "players": [],
+      "players": [
+        {
+          "position": "Barbaro del caos",
+          "cost": 50000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 3,
+            "av": 8
+          },
+          "skills": [],
+          "max": 16,
+          "improvements": {
+            "normal": ["G", "F", "M", "P"],
+            "double": ["A"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Goblin renegado",
+          "cost": 40000,
+          "stats": {
+            "ma": 6,
+            "st": 2,
+            "ag": 3,
+            "av": 7
+          },
+          "skills": [
+            "Animosidad",
+            "Esquivar",
+            "Agilidad felina",
+            "Escurridizo"
+          ],
+          "max": 1,
+          "improvements": {
+            "normal": ["A", "M"],
+            "double": ["G", "F", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Skaven renegado",
+          "cost": 50000,
+          "stats": {
+            "ma": 7,
+            "st": 3,
+            "ag": 3,
+            "av": 7
+          },
+          "skills": ["Animosidad"],
+          "max": 1,
+          "improvements": {
+            "normal": ["G", "M"],
+            "double": ["A", "F", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Orco renegado",
+          "cost": 50000,
+          "stats": {
+            "ma": 5,
+            "st": 3,
+            "ag": 3,
+            "av": 9
+          },
+          "skills": ["Animosidad"],
+          "max": 1,
+          "improvements": {
+            "normal": ["G", "M"],
+            "double": ["F", "P", "A"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Elfo renegado",
+          "cost": 70000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 4,
+            "av": 8
+          },
+          "skills": ["Animosidad"],
+          "max": 1,
+          "improvements": {
+            "normal": ["G", "A", "M"],
+            "double": ["F", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Troll del caos",
+          "cost": 110000,
+          "stats": {
+            "ma": 4,
+            "st": 5,
+            "ag": 1,
+            "av": 9
+          },
+          "skills": [
+            "Solitario",
+            "Siempre hambriento",
+            "Golpe mortífero",
+            "Realmente estúpido",
+            "Lanzar compañero de equipo",
+            "Regeneración"
+          ],
+          "max": 1,
+          "improvements": {
+            "normal": ["F"],
+            "double": ["G", "P", "A", "M"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Ogro del caos",
+          "cost": 140000,
+          "stats": {
+            "ma": 5,
+            "st": 5,
+            "ag": 2,
+            "av": 9
+          },
+          "skills": [
+            "Solitario",
+            "Cabeza hueca",
+            "Golpe mortífero",
+            "Cabeza dura",
+            "Lanzar compañero de equipo"
+          ],
+          "max": 1,
+          "improvements": {
+            "normal": ["F"],
+            "double": ["G", "P", "A", "M"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Minotauro del caos",
+          "cost": 150000,
+          "stats": {
+            "ma": 5,
+            "st": 5,
+            "ag": 2,
+            "av": 8
+          },
+          "skills": [
+            "Solitario",
+            "Furia",
+            "Cuernos",
+            "Golpe mortífero",
+            "Animal salvaje"
+          ],
+          "max": 1,
+          "improvements": {
+            "normal": ["F"],
+            "double": ["G", "P", "A", "M"]
+          },
+          "player-img": ""
+        }
+      ],
       "team-img": "https://2.bp.blogspot.com/-NbM7TF1_60M/VxScMeAPIyI/AAAAAAAAHfw/ZfX0kU_xEdcYv785N06EH7ArDSbdLe5zQCKgB/s400/IMG_2580.jpg",
       "strengths": [],
       "weaknesses": [],
-      "overview": "Los Enanos del Caos son una mezcla perfecta de contundencia, dureza y solidez. La posibilidad de empezar con dos centauros, con movimiento 6 y fuerza 4 es un buen comienzo. Además su armadura 9 y cabeza dura hace muy difícil sacarlos del campo. Después tenemos los 6 enanos del caos. Calcados a un defensa enano de toda la vida, pero con dobles acceden a mutaciones, lo cual es un muy buen punto a favor, y lo más importante, empezamos con 6 jugadores con placar. Además de esto, tenemos la posibilidad de alinear un minotauro. Con su fuerza 5, cuernos y Furia, un bicho a tener en cuenta. Para acabar de rellenar este equipo, disponemos de los hobgoblins. Jugadores baratos que dan el pego para rellenar los puestos que nos faltaban. Como contras para elegir este equipo, podríamos citar la baja agilidad de los centauros y enanos. De entrada no deberían ser nuestra primera elección a la hora de llevar el balón. Desgraciadamente, los únicos que tienen agilidad suficiente para llevar a cabo esa tarea son los Hobgoblins, que para más desgracia empiezan sin habilidades y tienen armadura 7. Además, la media de velocidad de este equipo no es nada espectacular, y los rerolls para este equipo son bastante caros.Pese a lo comentado, es un buen equipo para jugadores novatos, ya que tiene una buena mezcla de  jugadores, y es un equipo muy sólido. Empezamos con 6 jugadores con placar, uno de los Big Guys más temidos del juego y 2 centauros duros y bastante rápidos."
+      "overview": ""
     },
     {
       "id": "4",
       "team": "Chaos Teams",
       "logo": "https://bbtactics.com/images/chaos.png",
-      "players": [],
+      "players": [
+        {
+          "position": "Hombre bestia",
+          "cost": 60000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 3,
+            "av": 8
+          },
+          "skills": ["Cuernos"],
+          "max": 16,
+          "improvements": {
+            "normal": ["G", "F", "M"],
+            "double": ["A", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Guerrero del caos",
+          "cost": 100000,
+          "stats": {
+            "ma": 5,
+            "st": 4,
+            "ag": 3,
+            "av": 9
+          },
+          "skills": [],
+          "max": 4,
+          "improvements": {
+            "normal": ["G", "F", "M"],
+            "double": ["A", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Minotauro",
+          "cost": 150000,
+          "stats": {
+            "ma": 5,
+            "st": 5,
+            "ag": 2,
+            "av": 8
+          },
+          "skills": [
+            "Solitario",
+            "Furia",
+            "Cuernos",
+            "Golpe mortífero",
+            "Cabeza dura",
+            "Animal salvaje"
+          ],
+          "max": 1,
+          "improvements": {
+            "normal": ["F", "M"],
+            "double": ["G", "A", "P"]
+          },
+          "player-img": ""
+        }
+      ],
       "team-img": "https://scontent.fmad10-2.fna.fbcdn.net/v/t31.0-8/13086700_495728993962289_7335463066148938763_o.jpg?_nc_cat=104&_nc_sid=e007fa&_nc_ohc=67Wj6fhx3xMAX-_BbZa&_nc_ht=scontent.fmad10-2.fna&oh=efcbeba8823cf9f174d4c3dac965d2dc&oe=5EA8EC56",
-      "strengths": [],
-      "weaknesses": [],
-      "overview": ""
+      "strengths": [
+        "Fuerza",
+        "Mutaciones",
+        "Big guy muy potente",
+        "Muy duros una vez desarrollados"
+      ],
+      "weaknesses": [
+        "Jugadores caros",
+        "Sin habilidades al empezar",
+        "Rerrolls caros"
+      ],
+      "overview": "Los equipos del Caos suelen convertirse en verdaderas máquinas de matar y exterminar, pero eso es al cabo de muchos partidos y mucho tiempo. Al principio, un equipo del Caos es algo pobre y difícil de controlar. Si empezamos alguna competición con 1.000 puntos de TV, veremos que no hay muchas opciones de tener todo lo esencial en el equipo. Nuestros jugadores clave, los Guerreros del Caos, no nos entrarán en el equipo por valoración, o si lo hacen deberemos renunciar a Rerolls o al Minotauro. Aún así, los Guerreros del Caos tienen un duro camino antes de convertirse en jugadorazos, ya que empiezan sin ninguna habilidad, y no empiezan a ser jugadores competentes hasta que tienen al menos Placar y otra habilidad más. Lo mismo sucede en cuanto a habilidades con los Hombres Bestia.Para torneos o ligas cortas Caos no es una gran elección en cuanto a competitividad, pero si vuestra liga va a tener varias temporadas Caos se llegará a convertir en el terror de muchos equipos, casi seguro. A la larga, como comentamos, Caos se convierte en un equipo muy completo. Vamos a ver unas proposiciones de alineaciones iniciales, para iniciar una larga y prospera competición con nuestro equipo del Caos."
     },
     {
       "id": "5",
       "team": "Dark Elf Teams",
       "logo": "https://bbtactics.com/images/darkelf.png",
-      "players": [],
-      "team-img": "",
-      "strengths": [],
-      "weaknesses": [],
-      "overview": ""
+      "players": [
+        {
+          "position": "Linea",
+          "cost": 70000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 4,
+            "av": 8
+          },
+          "skills": [],
+          "max": 16,
+          "improvements": {
+            "normal": ["G", "A"],
+            "double": ["F", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Corredor",
+          "cost": 80000,
+          "stats": {
+            "ma": 7,
+            "st": 3,
+            "ag": 4,
+            "av": 7
+          },
+          "skills": ["Pase precipitado"],
+          "max": 2,
+          "improvements": {
+            "normal": ["G", "A", "P"],
+            "double": ["F"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Asesino",
+          "cost": 90000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 4,
+            "av": 7
+          },
+          "skills": ["Perseguir", "Puñal"],
+          "max": 2,
+          "improvements": {
+            "normal": ["G", "A"],
+            "double": ["F", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Blitzer",
+          "cost": 100000,
+          "stats": {
+            "ma": 7,
+            "st": 3,
+            "ag": 4,
+            "av": 8
+          },
+          "skills": ["Placar"],
+          "max": 4,
+          "improvements": {
+            "normal": ["G", "A"],
+            "double": ["F", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Elfa bruja",
+          "cost": 110000,
+          "stats": {
+            "ma": 7,
+            "st": 3,
+            "ag": 4,
+            "av": 7
+          },
+          "skills": ["Furia", "Esquivar", "En pie de un salto"],
+          "max": 2,
+          "improvements": {
+            "normal": ["G", "A"],
+            "double": ["F", "P"]
+          },
+          "player-img": ""
+        }
+      ],
+      "team-img": "https://static.wixstatic.com/media/2838dd_8b63cadfb7da46629e6028801f1cd0ee~mv2.jpg/v1/fill/w_858,h_686,al_c,q_90,usm_0.66_1.00_0.01/2838dd_8b63cadfb7da46629e6028801f1cd0ee~mv2.webp",
+      "strengths": [
+        "4 Blitzers con placar",
+        "Las Brujas Elfas",
+        "Agilidad 4 y armadura superior al resto de elfos"
+      ],
+      "weaknesses": ["Algunos jugadores con baja armadura", "Son muy caros"],
+      "overview": "Los Elfos Oscuros son, de los cuatro equipos elfos, el más enfocado a hacer un juego de “running game”. La falta de receptores o lanzadores natos es un claro ejemplo de que el pase no es el juego principal de este equipo. Sin embargo, son el hueso más duro de los cuatro. Su alta armadura, el hecho de empezar con 4 blitzers con placar y la posibilidad de usar asesinos que tiren a armadura sin posibilidad de caer hacen que este equipo elfo sea un peligro constante. Además, no olvidemos que todos los jugadores tienen agilidad 4, eso hace cualquier jugador elfo oscuro un potencial anotador y permite una buena movilidad tanto del balón como de los jugadores. La guindilla del equipo son unas brujas, de inicio con furia, esquivar y en pie de un salto; uno de los jugadores más temidos y odiados del Blood Bowl. Sin embargo, la baja armadura de asesinos, corredores y brujas los hace frágiles si entran demasiado en contacto. Además, los jugadores Elfos Oscuros no son precisamente baratos, de entrada, hacerte con 4 blitzers va a costarte 400.000 monedas de oro, y las brujas valen 110.000 cada una. Eso hace que cualquier baja es un dolor de cabeza para los entrenadores Elfos Oscuros."
     },
     {
       "id": "6",
       "team": "Dwarf Teams",
       "logo": "https://bbtactics.com/images/dwarf.png",
-      "players": [],
-      "team-img": "",
-      "strengths": [
-        "High armour",
-        "Thick skull",
-        "Start with lots of block and tackle",
-        "Cheap rerolls"
+      "players": [
+        {
+          "position": "Defensa",
+          "cost": 70000,
+          "stats": {
+            "ma": 4,
+            "st": 3,
+            "ag": 2,
+            "av": 9
+          },
+          "skills": ["Placar", "Placaje defensivo", "Cabeza dura"],
+          "max": 16,
+          "improvements": {
+            "normal": ["G", "F"],
+            "double": ["A", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Corredor",
+          "cost": 80000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 3,
+            "av": 8
+          },
+          "skills": ["Manos seguras", "Cabeza dura"],
+          "max": 2,
+          "improvements": {
+            "normal": ["G", "P"],
+            "double": ["A", "F"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Blitzer",
+          "cost": 80000,
+          "stats": {
+            "ma": 5,
+            "st": 3,
+            "ag": 3,
+            "av": 9
+          },
+          "skills": ["Placar", "Cabeza dura"],
+          "max": 2,
+          "improvements": {
+            "normal": ["G", "F"],
+            "double": ["A", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Matatroll",
+          "cost": 90000,
+          "stats": {
+            "ma": 5,
+            "st": 3,
+            "ag": 2,
+            "av": 8
+          },
+          "skills": ["Placar", "Agallas", "Furia", "Cabeza dura"],
+          "max": 2,
+          "improvements": {
+            "normal": ["G", "F"],
+            "double": ["A", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Apisonadora",
+          "cost": 160000,
+          "stats": {
+            "ma": 4,
+            "st": 7,
+            "ag": 1,
+            "av": 10
+          },
+          "skills": [
+            "Solitario",
+            "Abrirse paso",
+            "Juego sucio",
+            "Juggernaut",
+            "Golpe mortífero",
+            "Sin manos",
+            "Arma secreta",
+            "Mantenerse firme"
+          ],
+          "max": 2,
+          "improvements": {
+            "normal": ["F"],
+            "double": ["G", "A", "P"]
+          },
+          "player-img": ""
+        }
       ],
-      "weaknesses": ["Very slow", "Lack good ball handlers"],
-      "overview": "Dwarf teams are probably the most resiliant team in the game. Most of their team has very high armour and they have thick skulls which makes them harder to get off the pitch even if you do manage to break their armour. They also start with some good skills, most the team has block, they have a lot of tackle and the runners are good at picking up the ball. Dwarf teams also have the option of a deathroller which is the strongest peice in the game, though it tends to get sent off by the referree quite a lot! It isn’t all good for dwarfs though, due to their diminutive stature, dwarf teams are very slow. They are also rather average in the strength department compared to other of the traditional bashing teams. To combat these weakenesses it is important to position your players well or you can quickly find yourself out of position and stranded in the wrong part of the pitch as faster teams run off. Dwarfs also benefit from sticking together to assist each other, also if you are close by to each other should the ball come loose, you should have a lot of players nearby to try and recover it. For a beginner their slow movement and lack of ball handling skills may be tricky to deal with. The fact that they are hard to get off the pitch though should provide you with a full team most of the time. There are certainly easier options to start out with."
+      "team-img": "https://www.paintingforglory.com/wp-content/uploads/2018/11/Equipo-de-Enanos-de-Blood-Bowl-marca-Starplayer.jpg",
+      "strengths": [
+        "Alta armadura",
+        "Muchas habilidades (placar, placaje defensivo)",
+        "Cabeza dura de base en la mayoría de jugadores"
+      ],
+      "weaknesses": [
+        "Son muy lentos",
+        "Pocos jugadores capaces de jugar el balón"
+      ],
+      "overview": "Los Enanos son probablemente el equipo más resistente y compacto del Blood Bowl. La mayoría de jugadores tienen altas armaduras y algunos de ellos cabeza dura, lo cual hace dificil sacar estos pequeños jugadores del campo. Además, el equipo de enanos empieza con buenas habilidades, la mayoría de sus jugadores tiene placar de base, y los defensas, pese a ser lentos, empiezan con placaje defensivo.Pero no todo son ventajas en este equipo, si algo le falla a los enanos es la velocidad y la agilidad. Pocos equipos mueven menos que los enanos, y no es que se pueda decir que son hábiles jugando el balon, salvo pequeñas excepciones…"
     },
     {
       "id": "7",
       "team": "Elf Teams",
       "logo": "https://bbtactics.com/images/elf.png",
-      "players": [],
-      "team-img": "",
-      "strengths": [],
-      "weaknesses": [],
-      "overview": ""
+      "players": [
+        {
+          "position": "Linea",
+          "cost": 60000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 4,
+            "av": 7
+          },
+          "skills": [],
+          "max": 16,
+          "improvements": {
+            "normal": ["G", "A"],
+            "double": ["F", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Lanzador",
+          "cost": 70000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 4,
+            "av": 7
+          },
+          "skills": ["Pasar"],
+          "max": 2,
+          "improvements": {
+            "normal": ["G", "A", "P"],
+            "double": ["F"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Receptor",
+          "cost": 100000,
+          "stats": {
+            "ma": 8,
+            "st": 3,
+            "ag": 4,
+            "av": 7
+          },
+          "skills": ["Atrapar", "Nervios de acero"],
+          "max": 4,
+          "improvements": {
+            "normal": ["G", "A"],
+            "double": ["F", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Blitzer",
+          "cost": 110000,
+          "stats": {
+            "ma": 7,
+            "st": 3,
+            "ag": 4,
+            "av": 8
+          },
+          "skills": ["Placar", "Echarse a un lado"],
+          "max": 2,
+          "improvements": {
+            "normal": ["G", "A"],
+            "double": ["F", "P"]
+          },
+          "player-img": ""
+        }
+      ],
+      "team-img": "https://pbs.twimg.com/media/DJc6kptXcAAql2y?format=jpg&name=small",
+      "strengths": [
+        "Receptores muy buenos de base",
+        "Lineas baratos",
+        "Todos con Agilidad 4"
+      ],
+      "weaknesses": ["Posicionales caros", "Armadura reducida"],
+      "overview": "Los Elfos Profesionales, como buenos elfos, empiezan todos con agilidad 4. Lo que permite, en gran medida, que todos los jugadores tengan una buena movilidad por el campo y que todos sean capaces de jugar el balón. De las 4 razas elfas, los Elfos Profesionales son los que tienen unos lineas más baratos. Además, sus receptores empiezan con atrapar y nervios de acero, lo que, junto a su fuerza 3, los convierte en unos de los mejores receptores del juego, si no el mejor. Este equipo también dispone de dos blitzers, que llevan de base echarse a un lado, una habilidad bastante irritante para el rival si no consigue tirarlos al suelo. Por contra, los elfos profesionales tienen poca armadura, solo sus blitzers superan la armadura 7. Pese a tener unos lineas baratos, los receptores y los blitzers son, como suele pasar con todos los elfos, bastante caros, con lo cual hay que ir en cuidado ya que la pérdida de uno de estos jugadores clave puede suponer un desastre en las arcas del equipo."
     },
     {
       "id": "8",

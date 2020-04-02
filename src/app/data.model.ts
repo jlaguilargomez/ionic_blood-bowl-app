@@ -26,6 +26,7 @@ export interface PlayerData {
   position: string;
   skills: string[];
   stats: PlayerStats;
+  'player-img': string;
 }
 
 export interface PlayerStats {
