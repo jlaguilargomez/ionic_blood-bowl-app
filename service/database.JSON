@@ -567,7 +567,7 @@
     },
     {
       "id": "2",
-      "team": "Chaos Dwarf Teams",
+      "team": "Enanos del caos",
       "logo": "https://bbtactics.com/images/chaosdwarf.png",
       "players": [
         {
@@ -661,7 +661,7 @@
     },
     {
       "id": "3",
-      "team": "Chaos Pact Teams",
+      "team": "Pacto del caos",
       "logo": "https://bbtactics.com/images/chaospact.png",
       "players": [
         {
@@ -832,7 +832,7 @@
     },
     {
       "id": "4",
-      "team": "Chaos Teams",
+      "team": "Caos",
       "logo": "https://bbtactics.com/images/chaos.png",
       "players": [
         {
@@ -910,7 +910,7 @@
     },
     {
       "id": "5",
-      "team": "Dark Elf Teams",
+      "team": "Elfos oscuros",
       "logo": "https://bbtactics.com/images/darkelf.png",
       "players": [
         {
@@ -1010,7 +1010,7 @@
     },
     {
       "id": "6",
-      "team": "Dwarf Teams",
+      "team": "Enanos",
       "logo": "https://bbtactics.com/images/dwarf.png",
       "players": [
         {
@@ -1122,7 +1122,7 @@
     },
     {
       "id": "7",
-      "team": "Elf Teams",
+      "team": "Elfos profesionales",
       "logo": "https://bbtactics.com/images/elf.png",
       "players": [
         {
@@ -1205,97 +1205,838 @@
     },
     {
       "id": "8",
-      "team": "Goblin Teams",
+      "team": "Goblins",
       "logo": "https://bbtactics.com/images/goblin.png",
-      "players": [],
-      "team-img": "",
-      "strengths": [],
-      "weaknesses": [],
-      "overview": ""
+      "players": [
+        {
+          "position": "Goblin",
+          "cost": 40000,
+          "stats": {
+            "ma": 6,
+            "st": 2,
+            "ag": 3,
+            "av": 7
+          },
+          "skills": ["Esquivar", "Agilidad felina", "Escurridizo"],
+          "max": 16,
+          "improvements": {
+            "normal": ["A"],
+            "double": ["G", "F", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Bombardero",
+          "cost": 40000,
+          "stats": {
+            "ma": 6,
+            "st": 2,
+            "ag": 3,
+            "av": 7
+          },
+          "skills": ["Bombardero", "Esquivar", "Arma secreta", "Escurridizo"],
+          "max": 1,
+          "improvements": {
+            "normal": ["A"],
+            "double": ["G", "F", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Chiflado",
+          "cost": 40000,
+          "stats": {
+            "ma": 6,
+            "st": 2,
+            "ag": 3,
+            "av": 7
+          },
+          "skills": ["Sierra mecánica", "Arma secreta", "Escurridizo"],
+          "max": 1,
+          "improvements": {
+            "normal": ["A"],
+            "double": ["G", "F", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Fanático",
+          "cost": 70000,
+          "stats": {
+            "ma": 3,
+            "st": 7,
+            "ag": 3,
+            "av": 7
+          },
+          "skills": [
+            "Bola con cadena",
+            "Sin manos",
+            "Arma secreta",
+            "Escurridizo"
+          ],
+          "max": 1,
+          "improvements": {
+            "normal": ["F"],
+            "double": ["G", "A", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Pogo",
+          "cost": 70000,
+          "stats": {
+            "ma": 7,
+            "st": 2,
+            "ag": 3,
+            "av": 7
+          },
+          "skills": ["Esquivar", "Saltar", "Escurridizo", "Piernas muy largas"],
+          "max": 1,
+          "improvements": {
+            "normal": ["A"],
+            "double": ["G", "F", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Troll",
+          "cost": 110000,
+          "stats": {
+            "ma": 4,
+            "st": 5,
+            "ag": 1,
+            "av": 9
+          },
+          "skills": [
+            "Solitario",
+            "Siempre hambriento",
+            "Golpe mortífero",
+            "Realmente estúpido",
+            "Regeneración",
+            "Lanzar compañero de equipo"
+          ],
+          "max": 1,
+          "improvements": {
+            "normal": ["F"],
+            "double": ["G", "A", "P"]
+          },
+          "player-img": ""
+        }
+      ],
+      "team-img": "https://brushandboltgun.com/wp-content/uploads/2018/08/img_5956.jpg",
+      "strengths": [
+        "Jugadores baratos",
+        "Uso de armas secretas",
+        "Combo esquivar-escurridizo"
+      ],
+      "weaknesses": [
+        "Frágiles",
+        "Excepto los trolls y el fanático, jugadores con fuerza 2",
+        "Armas secretas, armas de doble filo"
+      ],
+      "overview": "Los Goblins, esos bichos verdes con mala leche, ideas alocadas y ansias de volar por encima de las defensas enemigas y anotar un touchdown tras un más que probable trágico aterrizaje. Sin duda, uno de los equipos más tentadores para entrenadores avanzados. Con Goblins todo puede ser muy divertido, muy trágico, muy demoledor… Todo depende del azar con los Goblins. El equipo inicial de goblins vienen a ser dos trolls, un goblin con sierra mecánica, un goblin fanático, un goblin bombardero, un pogo saltarín y el resto goblins rasos. Dado que son jugadores muy baratos no habrá problemas en hacer un roster completo con varios rerolls y un médico… Y aún nos sobrará efectivo para ir a hacer unas copas con los supervivientes al final del partido. Las armas secretas, la posibilidad de usar dos trolls y la gran movilidad de los goblins con esquivar y escurridizo hacen de este equipo la principal ventaja frente a sus rivales. Además, dado que la valoración de los equipos goblins suele ser más baja que la de los rivales, habitualmente los equipos goblins disponen de incentivos, lo que significa que pueden usar más armas secretas y sobornos. Por desgracia, la fuerza 2 de los goblins, su baja armadura y el bonus negativo de escurridizo hace que sean de los jugadores más frágiles de este juego. Además, las armas secretas son armas de doble filo. Si algo no sale bien puedes acabar fastidiándote a ti mismo con tus propios artilugios de matar rivales. Este equipo no es fácil de llevar para un novato, pero para un entrenador experimentado puede suponer un reto muy interesante. Además, con un equipo que usa sierras mecánicas, bombas, bolas con cadena y jugadores voladores… No puede faltar la diversión!"
     },
     {
       "id": "9",
-      "team": "Halfling Teams",
+      "team": "Halflings",
       "logo": "https://bbtactics.com/images/halfling.png",
-      "players": [],
-      "team-img": "",
-      "strengths": [],
-      "weaknesses": [],
-      "overview": ""
+      "players": [
+        {
+          "position": "Hafling",
+          "cost": 30000,
+          "stats": {
+            "ma": 5,
+            "st": 2,
+            "ag": 3,
+            "av": 6
+          },
+          "skills": ["Esquivar", "Agilidad felina", "Escurridizo"],
+          "max": 16,
+          "improvements": {
+            "normal": ["A"],
+            "double": ["G", "F", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Hombre árbol",
+          "cost": 120000,
+          "stats": {
+            "ma": 2,
+            "st": 6,
+            "ag": 1,
+            "av": 10
+          },
+          "skills": [
+            "Golpe mortífero",
+            "Mantenerse firme",
+            "Brazo fuerte",
+            "Echar raíces",
+            "Cabeza dura",
+            "Lanzar compañero de equipo"
+          ],
+          "max": 2,
+          "improvements": {
+            "normal": ["F"],
+            "double": ["G", "A", "P"]
+          },
+          "player-img": ""
+        }
+      ],
+      "team-img": "https://playburgos.files.wordpress.com/2016/02/3.jpg?w=768&h=433",
+      "strengths": [
+        "Jugadores Baratos",
+        "Pueden robar rerrolls",
+        "Pueden usar 2 hombres árbol"
+      ],
+      "weaknesses": [
+        "Son muy lentos",
+        "Son muy frágiles",
+        "Salvo los 2 árboles, son muy débiles"
+      ],
+      "overview": "Los Halfings son la raza más lenta y débil del bloodbowl por el momento. Pueden usar dos hombres árbol, lo cual es de agradecer, ya que el resto de jugadores tendrán fuerza 2. También hay la opción de usar un gran chef halfing por incentivos, que permite robar al rival sus rerolls, lo cual es de gran ayuda, debido a que probablemente un equipo de halfings los necesite en abundancia. Otra de las grandes ventajas, es que los jugadores Halfings son baratos, eso nos permite empezar con muchos jugadores, y poder reemplazarlos si fuera necesario, que probablemente lo sea. Negativamente hablando, podríamos hacer muchos párrafos sobre este equipo. Nos limitaremos a comentar que dado que el jugador más rápido de este equipo mueve 5, podemos considerarlo el equipo más lento del juego. Además, todos los halfings tienen fuerza 2, y solamente armadura 6. Eso les hace sin duda el equipo más débil y frágil del juego. Si alguno de los Hlfings vive lo suficiente como para hacer algunos puntos de experiencia y llegar a tener alguna subida, quizás sea un poco más jugable, aunque esa sería la excepción que confirma la regla con este equipo. Con este panorama, podríamos decir que la principal ventaja de este equipo es que si alguna vez alguien gana un partido con halfings, el otro equipo y el otro entrenador serán recordados por la humillación el resto de sus días, y el entrenador que haya conseguido tal gesta también será recordado."
     },
     {
       "id": "10",
-      "team": "High Elf Teams",
+      "team": "Altos elfos",
       "logo": "https://bbtactics.com/images/highelf.png",
-      "players": [],
-      "team-img": "",
-      "strengths": [],
-      "weaknesses": [],
-      "overview": ""
+      "players": [
+        {
+          "position": "Línea",
+          "cost": 70000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 4,
+            "av": 8
+          },
+          "skills": [],
+          "max": 16,
+          "improvements": {
+            "normal": ["G", "A"],
+            "double": ["F", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Lanzador",
+          "cost": 90000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 4,
+            "av": 8
+          },
+          "skills": ["Pasar", "Pase seguro"],
+          "max": 2,
+          "improvements": {
+            "normal": ["G", "A", "P"],
+            "double": ["F"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Receptor",
+          "cost": 90000,
+          "stats": {
+            "ma": 8,
+            "st": 3,
+            "ag": 4,
+            "av": 7
+          },
+          "skills": ["Atrapar"],
+          "max": 4,
+          "improvements": {
+            "normal": ["G", "A"],
+            "double": ["F", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Blitzer",
+          "cost": 100000,
+          "stats": {
+            "ma": 7,
+            "st": 3,
+            "ag": 4,
+            "av": 8
+          },
+          "skills": ["Placar"],
+          "max": 2,
+          "improvements": {
+            "normal": ["G", "A"],
+            "double": ["F", "P"]
+          },
+          "player-img": ""
+        }
+      ],
+      "team-img": "https://i.pinimg.com/564x/e9/68/65/e96865770bb296b9c539c1b5ac9dcd63.jpg",
+      "strengths": [
+        "Agilidad alta",
+        "4 receptores muy rápidos",
+        "De inicio con pase seguro"
+      ],
+      "weaknesses": ["Empiezan con pocas habilidades", "Corredores frágiles"],
+      "overview": "Los Altos Elfos son uno de los equipos elfos más sólidos, debido a su armadura alta y a unos excelentes posicionales. Los rerolls no son caros para este equipo, y todos los jugadores empiezan con agilidad 4. Suelen jugar al pase, ya que sus lanzadores son unos de los mejores del juego, empiezando con pasar y la habilidad pase seguro, lo que hace más dificil que le intercepten un pase. Sus receptores son de los más rápidos del juego y, pese a que tienen armadura 7, no pierden punto de fuerza por ello, como pasa con los receptores silvanos. También tiene unos blitzers sólidos, y lineas con buena armadura. De todos modos, pese a que sus stats de partida son muy buenos, empiezan con contadas habilidades, lo que hace que los primeros partidos no sean sencillos. Pese a tener una buena media de armadura, empezar solamente con 2 jugadores con placar hace que este equipo no tenga tanta pegada como otros equipos elfos.  Los jugadores más determinantes del equipo, los receptores, son los más frágiles del equipo. Pese a eso y con un buen entrenador, al cabo de unos partidos y con unas pocas subidas, el equipo Alto Elfo se convierte en una maquina de marcar touchdowns."
     },
     {
       "id": "11",
-      "team": "Human Teams",
+      "team": "Humanos",
       "logo": "https://bbtactics.com/images/human.png",
-      "players": [],
-      "team-img": "",
-      "strengths": [],
-      "weaknesses": [],
-      "overview": ""
+      "players": [
+        {
+          "position": "Línea",
+          "cost": 50000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 3,
+            "av": 8
+          },
+          "skills": ["Ninguna"],
+          "max": 16,
+          "improvements": {
+            "normal": ["G"],
+            "double": ["F", "P", "A"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Receptor",
+          "cost": 70000,
+          "stats": {
+            "ma": 8,
+            "st": 2,
+            "ag": 3,
+            "av": 7
+          },
+          "skills": ["Atrapar", "Esquivar"],
+          "max": 4,
+          "improvements": {
+            "normal": ["G", "A"],
+            "double": ["F", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Lanzador",
+          "cost": 70000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 3,
+            "av": 8
+          },
+          "skills": ["Manos seguras", "Pasar"],
+          "max": 2,
+          "improvements": {
+            "normal": ["G", "P"],
+            "double": ["F", "A"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Blitzer",
+          "cost": 90000,
+          "stats": {
+            "ma": 7,
+            "st": 3,
+            "ag": 3,
+            "av": 8
+          },
+          "skills": ["Placar"],
+          "max": 4,
+          "improvements": {
+            "normal": ["G", "F"],
+            "double": ["P", "A"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Ogro",
+          "cost": 140000,
+          "stats": {
+            "ma": 5,
+            "st": 5,
+            "ag": 2,
+            "av": 9
+          },
+          "skills": [
+            "Solitario",
+            "Golpe mortífero",
+            "Cabeza dura",
+            "Cabeza hueca",
+            "Lanzar compañero de equipo"
+          ],
+          "max": 1,
+          "improvements": {
+            "normal": ["F"],
+            "double": ["G", "P", "A"]
+          },
+          "player-img": ""
+        }
+      ],
+      "team-img": "https://www.paintingforglory.com/wp-content/uploads/2019/02/Equipo_Humanos_Blood_Bowl4-768x537.jpg",
+      "strengths": [
+        "Juego flexible",
+        "Jugadores baratos",
+        "Empiezan con muchas habilidades"
+      ],
+      "weaknesses": [
+        "No son excelentes en nada concreto",
+        "Difíciles de gestionar si no te adaptas"
+      ],
+      "overview": "Los humanos son un equipo bastante adaptable al juego del rival. Son medianamente decentes en todo pero no son los mejores en nada. “Jacks of all trades” y “Masters of nothing”, se dedican a jugar a lo que a su rival se le da peor. Si juegan contra equipos fuertes y pegones, corren y pasan. Si juegan contra equipos débiles y jugones, pegan y sacuden. La posibilidad de alinear 4 blitzers es una buena noticia para entrenadores humanos. Los lineas tienen unos stats decentes, y los lanzadores empiezan con buenas skills. En cuanto al receptor, de movimiento 8 y armadura 7, en algún momento perdió un punto de fuerza y pese a tener 2 habilidades de entrada es un jugador bastante frágil. Otra ventaja de los humanos es que son jugadores bastante baratos, lo cual permite crear un buen equipo desde el primer día. Los humanos son un equipo muy completo, pero como decíamos no son especialistas en nada. Deben adaptarse al juego del rival, y si las cosas no salen bien cambiar de plan, lo cual no supone mucho problema ya que es un equipo muy versátil. Si eres un entrenador de ideas fijas sufrirás con este equipo, ya que jugando con humanos hay que tener la mente abierta y un plan b para todas las jugadas."
     },
     {
       "id": "12",
-      "team": "Khemri Teams",
+      "team": "Khemri",
       "logo": "https://bbtactics.com/images/khemri.png",
-      "players": [],
-      "team-img": "",
-      "strengths": [],
-      "weaknesses": [],
-      "overview": ""
+      "players": [
+        {
+          "position": "Esqueleto",
+          "cost": 40000,
+          "stats": {
+            "ma": 5,
+            "st": 3,
+            "ag": 2,
+            "av": 7
+          },
+          "skills": ["Regeneración", "Cabeza dura"],
+          "max": 16,
+          "improvements": {
+            "normal": ["G"],
+            "double": ["P", "A", "F"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Thro-Ras",
+          "cost": 70000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 2,
+            "av": 7
+          },
+          "skills": ["Pasar", "Regeneración", "Manos seguras"],
+          "max": 2,
+          "improvements": {
+            "normal": ["P", "G"],
+            "double": ["A", "F"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Blitz-Ras",
+          "cost": 90000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 2,
+            "av": 8
+          },
+          "skills": ["Placar", "Regeneración"],
+          "max": 2,
+          "improvements": {
+            "normal": ["F", "G"],
+            "double": ["A", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Guardián de la tumba",
+          "cost": 100000,
+          "stats": {
+            "ma": 4,
+            "st": 5,
+            "ag": 1,
+            "av": 9
+          },
+          "skills": ["Degenerar", "Regeneración"],
+          "max": 4,
+          "improvements": {
+            "normal": ["F"],
+            "double": ["A", "P", "G"]
+          },
+          "player-img": ""
+        }
+      ],
+      "team-img": "http://4.bp.blogspot.com/-KPZeKb2N110/UDJ8jqUdi4I/AAAAAAAAA1Q/-qdNp8L9Zm4/s1600/Khemri_BB.jpg",
+      "strengths": [
+        "4 momias con fuerza 5",
+        "Todos los jugadores con regenerar",
+        "Líneas esqueletos muy baratos"
+      ],
+      "weaknesses": [
+        "Agilidad muy baja",
+        "Rerrolls muy caros",
+        "Salvo blitzers y momias, jugadores con baja armadura"
+      ],
+      "overview": "Khemri es, sin duda, un equipo enfocado a pegar al rival. Con 4 momias de fuerza 5 no es difícil encontrar la forma de pegar con ventaja. También dispone de 2 blitzers que empiezan con placar, y dos lanzadores que tienen pasar y manos seguras de base. Para rellenar, disponemos de todos los esqueletos que necesitemos a un precio de 30.000 monedas de oro, una ganga dado que regeneran. Todo el equipo de Khemri regenera, lo cual hace que sea más llevadero el hecho de no poder usar médicos. Como datos negativos, éste equipo tiene, salvo momias y blitzers, una armadura de 7, lo que les hace bastante frágiles y los convierte en objetivos prioritarios, sobretodo si analizamos el hecho de que la alternativa a pegar a estos jugadores es pegar a momias de fuerza 5 con golpe mortífero. Los rerolls para Khamri son muy caros, y si lo sumamos al hecho de que ningún jugador de este equipo empieza con agilidad superior a 2, nos damos cuenta de que mover el balón por el campo puede ser un problema, y perderlo un desastre. El equipo de Khemri es una apuesta segura a la hora de sacudir a rivales, pero un equipo que flaquea a la hora de jugar el balón. Por esa razón, es une quipo poco recomendable para jugadores novatos, pero un buen reto para jugadores experimentados cansados de jugar al tiki-taka con sus ágiles equipos, sean cuales sean, ya que en comparación a Khemri cualquier equipo es superágil!"
     },
     {
       "id": "13",
-      "team": "Lizardmen Teams",
+      "team": "Hombres lagarto",
       "logo": "https://bbtactics.com/images/lizardmen.png",
-      "players": [],
-      "team-img": "",
-      "strengths": [],
-      "weaknesses": [],
-      "overview": ""
+      "players": [
+        {
+          "position": "Eslizón",
+          "cost": 60000,
+          "stats": {
+            "ma": 8,
+            "st": 2,
+            "ag": 3,
+            "av": 7
+          },
+          "skills": ["Esquivar", "Escurridizo"],
+          "max": 16,
+          "improvements": {
+            "normal": ["A"],
+            "double": ["F", "P", "G"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Saurios",
+          "cost": 80000,
+          "stats": {
+            "ma": 6,
+            "st": 4,
+            "ag": 1,
+            "av": 9
+          },
+          "skills": ["Ninguna"],
+          "max": 6,
+          "improvements": {
+            "normal": ["F", "G"],
+            "double": ["P", "A"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Kroxigor",
+          "cost": 140000,
+          "stats": {
+            "ma": 6,
+            "st": 5,
+            "ag": 1,
+            "av": 9
+          },
+          "skills": [
+            "Solitario",
+            "Cabeza hueca",
+            "Golpe mortífero",
+            "Cola prensil",
+            "Cabeza dura"
+          ],
+          "max": 1,
+          "improvements": {
+            "normal": ["F"],
+            "double": ["P", "A", "G"]
+          },
+          "player-img": ""
+        }
+      ],
+      "team-img": "https://klarensan.files.wordpress.com/2014/05/20140508_211459.jpg?w=470",
+      "strengths": [
+        "7 jugadores muy fuertes y rápidos",
+        "Resto del equipo rápido y con esquivar-escurridizo",
+        "Muy rápidos en general"
+      ],
+      "weaknesses": [
+        "Empiezan apenas sin habilidades",
+        "Eslizones muy frágiles",
+        "Pobres pasando el balón"
+      ],
+      "overview": "Los Hombres Lagartos son el Ying y el Yang del Blood Bowl. Por un lado tienen 6 jugadores con fuerza 4 y uno con fuerza 5, todos con armadura 9 y movimiento 6. Los Saurios son jugadores duros, que pese a que empiezan sin habilidades, rápidamente puedes tener una primera linea de 6 jugadores que haga temblar cualquier rival. En cuanto al króxigor, un bicho de fuerza 5 y movimiento 6, es el terror de las nenas en el campo. Pocos Big Guys tienen tanto movimiento, lo que puede llegar a ser un dolor de cabeza para los rivales. Por otro lado, tenemos el resto del equipo, los eslizones. Jugadores de fuerza 2, movimiento 8 y armadura 7, cone squivar y escurridizo. Jugadores que no sirven para el choque, salvo hacer una falta aislada y rebanar un brazo a un rival mientras el árbitro no mira, pero con una movilidad extrema y capaces de cruzar el campo en tiempo récord. Sin embargo, los saurios y el króxigor son bastante nulos jugando el balón. Los eslizones no son tan cafres, pero olvídate de hacer pases con ellos. Lo mejor es coger el balón y correr. Además, debido a su armadura 7 y la habilidad escurridizo, los eslizones son jugadores muy frágiles. En resumen, hay que ser un entrenador experimentado para llevar este equipo, ya que la falta de habilidades al principio puede pasar factura si no se planifican bien las jugadas, y exponer los eslizones puede ser fatal para ellos y para el equipo, ya que sin eslizones en el campo, marcar se convertira en tarea más que improbable. Una vez dominado el juego de los Lizards, por eso, se convertirá en un equipo muy poderoso, aplastando a los equipos fuertez por velocidad y a los débiles por fuerza y poderío."
     },
     {
       "id": "14",
-      "team": "Norse Teams",
+      "team": "Nórdicos",
       "logo": "https://bbtactics.com/images/norse.png",
-      "players": [],
-      "team-img": "",
-      "strengths": [],
-      "weaknesses": [],
-      "overview": ""
+      "players": [
+        {
+          "position": "Línea",
+          "cost": 50000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 3,
+            "av": 7
+          },
+          "skills": ["Placar"],
+          "max": 16,
+          "improvements": {
+            "normal": ["G"],
+            "double": ["P", "F", "A"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Lanzador",
+          "cost": 70000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 3,
+            "av": 7
+          },
+          "skills": ["Placar", "Pasar"],
+          "max": 2,
+          "improvements": {
+            "normal": ["P", "G"],
+            "double": ["F", "A"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Corredor",
+          "cost": 90000,
+          "stats": {
+            "ma": 7,
+            "st": 3,
+            "ag": 3,
+            "av": 7
+          },
+          "skills": ["Placar", "Agallas"],
+          "max": 2,
+          "improvements": {
+            "normal": ["A", "G"],
+            "double": ["F", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Berserker",
+          "cost": 90000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 3,
+            "av": 7
+          },
+          "skills": ["Placar", "Furia", "En pie de un salto"],
+          "max": 2,
+          "improvements": {
+            "normal": ["F", "G"],
+            "double": ["P", "A"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Hombre lobo nórdico",
+          "cost": 110000,
+          "stats": {
+            "ma": 6,
+            "st": 4,
+            "ag": 2,
+            "av": 8
+          },
+          "skills": ["Furia"],
+          "max": 2,
+          "improvements": {
+            "normal": ["F", "G"],
+            "double": ["P", "A"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Yeti",
+          "cost": 140000,
+          "stats": {
+            "ma": 5,
+            "st": 5,
+            "ag": 1,
+            "av": 8
+          },
+          "skills": [
+            "Solitario",
+            "Garras",
+            "Presencia perturbadora",
+            "Furia",
+            "Animal salvaje"
+          ],
+          "max": 1,
+          "improvements": {
+            "normal": ["F"],
+            "double": ["P", "A", "G"]
+          },
+          "player-img": ""
+        }
+      ],
+      "team-img": "https://3.bp.blogspot.com/-Px34jtscyx8/VrMXggqXXiI/AAAAAAAAMGo/uCBYM9z-_dU/s640/P1070424.JPG",
+      "strengths": [
+        "Muchos jugadores con placar de base",
+        "Jugadores con furia para abrir huecos"
+      ],
+      "weaknesses": ["Armadura baja", "Hay que ir con cuidado con furia"],
+      "overview": "Los equipos Nórdicos tienen como característica principal que prácticamente todos sus jugadores empiezan con la habilidad placar. Lanzadores, corredores, líneas y berserkers, todos tienen placar de base. Luego están los Ulfwereners y el Yeti, que empiezan sin placar, pero dada su fuerza y lo violentos que son les da más bien igual. Pese a tener un lanzador, los equipos nórdicos no suelen jugar al pase, ya que no tienen receptores. Lo más parecido a un receptor son sus corredores, que como su nombre indica, corren. No son especialistas en recibir pases, pero gracias a su habilidad agallas si que son especialistas a apartar cualquier jugador de su linea de carrera, sea cual sea la fuerza del rival. Otra habilidad que hace característica los equipos nórdicos es la furia, lo cual les permite abrir huecos en las defensas con bastante eficiencia. Hay que tener cuidado con la furia por eso, y usarla con cabeza, ya que puedes plantarte sin querer en medio de muchos rivales y verte obligado a placar con desventaja, con lo que eso implica. Los nórdicos tienen otro problema a parte de los berenjenales en los que pueden meterse sus jugadores furiosos, y es que excepto los Ulfwereners y el Yeti, todos sus jugadores tienen armadura 7. Dado que son un equipo que juega mucho al contacto, eso les puede pasar factura si no planean muy bien como gestionar sus ventajas frente a rivales duros. Cualquier jugador desprotegido puede irse a la enfermeria debido a su baja armadura, y hay que aprender a gestionar esas situaciones."
     },
     {
       "id": "15",
-      "team": "Nurgle Teams",
+      "team": "Nurgle",
       "logo": "https://bbtactics.com/images/nurgle.png",
-      "players": [],
-      "team-img": "",
-      "strengths": [],
-      "weaknesses": [],
-      "overview": ""
+      "players": [
+        {
+          "position": "Putrefacto",
+          "cost": 40000,
+          "stats": {
+            "ma": 5,
+            "st": 3,
+            "ag": 3,
+            "av": 8
+          },
+          "skills": ["Degenerar", "Putrefacción de nurgle"],
+          "max": 16,
+          "improvements": {
+            "normal": ["G", "M"],
+            "double": ["F", "A", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Pestigor",
+          "cost": 80000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 3,
+            "av": 8
+          },
+          "skills": ["Regeneración", "Cuernos", "Putrefacción de nurgle"],
+          "max": 4,
+          "improvements": {
+            "normal": ["F", "G", "M"],
+            "double": ["A", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Guerrero de nurgle",
+          "cost": 110000,
+          "stats": {
+            "ma": 4,
+            "st": 4,
+            "ag": 2,
+            "av": 9
+          },
+          "skills": [
+            "Presencia perturbadora",
+            "Apariencia asquerosa",
+            "Putrefacción de nurgle",
+            "Regeneración"
+          ],
+          "max": 4,
+          "improvements": {
+            "normal": ["F", "G", "M"],
+            "double": ["A", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Bestia de nurgle",
+          "cost": 140000,
+          "stats": {
+            "ma": 4,
+            "st": 5,
+            "ag": 1,
+            "av": 9
+          },
+          "skills": [
+            "Solitario",
+            "Presencia perturbadora",
+            "Apariencia asquerosa",
+            "Golpe mortífero",
+            "Putrefacción de nurgle",
+            "Realmente estúpido",
+            "Regeneración",
+            "Tentáculos"
+          ],
+          "max": 1,
+          "improvements": {
+            "normal": ["F"],
+            "double": ["A", "P", "G", "M"]
+          },
+          "player-img": ""
+        }
+      ],
+      "team-img": "https://1.bp.blogspot.com/-XJH67WrmpxI/W_qbC4pobaI/AAAAAAAABxY/oRoaSEia6GkgDXXdPeW1Sx7MY3dR6LjQQCLcBGAs/s640/nurgle2.JPG",
+      "strengths": [
+        "Combo presencia perturbadora + apariencia asquerosa",
+        "Mutaciones",
+        "Lineas baratos"
+      ],
+      "weaknesses": [
+        "Rerrolls caros",
+        " Nulas habilidades enfocadas a mover el balón al principio",
+        "Sin posibilidad de médico"
+      ],
+      "overview": "Nurgle es uno de los equipos de Blood Bowl más solidos defensivamente hablando que podemos encontrar. Empiezan con 4 jugadores de fuerza 4, presencia perturbadora y apariencia asquerosa. Eso hace que sea difícil pegarles y dificulta llevar a cabo acciones con el balón cerca suyo. Si sumamos eso a que pueden disponer de una Bestia de Nurgle de fuerza 5, con las mismas habilidades ya citadas y con tentáculos para mantener los rivales bien cerca de ella empezaremos a entender que por donde van estos jugadores, el rival ni placa con facilidad, ni se mueve con facilidad ni juega el balón con facilidad. Pero eso no es todo. Este equipo tiene regenerar en casi todos sus jugadores, todos excepto los lineas. Y para hacerlo todavía mejor, todos los jugadores acceden a mutaciones con normalidad, y la Bestia de Nurgle con doble. Además disponemos de lineas muy baratos, que aunque són bastante frágiles cumplen su función. Pero no todo son ventajas en este equipo. Pese a su parecido con los equipos de Caos, son algo más lentos que ellos, y menos ágiles. Además, no hay la posibilidad de tener médico con los equipos de Nurgle, lo que hace depender de la regeneración a los jugadores en caso de lesiones. Los rerolls son caros, 70.000 monedas de oro por unidad, junto con el hecho de empezar sin jugadores capaces de jugar el balón, hace que el ataque de Nurgle sea un poco flojo los primeros partidos."
     },
     {
       "id": "16",
-      "team": "Ogre Teams",
+      "team": "Ogros",
       "logo": "https://bbtactics.com/images/ogre.png",
-      "players": [],
-      "team-img": "",
-      "strengths": [],
-      "weaknesses": [],
-      "overview": ""
+      "players": [
+        {
+          "position": "Snotling",
+          "cost": 20000,
+          "stats": {
+            "ma": 5,
+            "st": 1,
+            "ag": 3,
+            "av": 5
+          },
+          "skills": [
+            "Esquivar",
+            "Agilidad felina",
+            "Echarse a un lado",
+            "Escurridizo",
+            "Canijo"
+          ],
+          "max": 16,
+          "improvements": {
+            "normal": ["A"],
+            "double": ["G", "F", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Ogro",
+          "cost": 140000,
+          "stats": {
+            "ma": 5,
+            "st": 5,
+            "ag": 2,
+            "av": 9
+          },
+          "skills": [
+            "Cabeza hueca",
+            "Golpe mortífero",
+            "Cabeza dura",
+            "Lanzar compañero de equipo"
+          ],
+          "max": 6,
+          "improvements": {
+            "normal": ["F"],
+            "double": ["G", "A", "P"]
+          },
+          "player-img": ""
+        }
+      ],
+      "team-img": "https://www.paintingforglory.com/wp-content/uploads/2018/11/Equipo-de-Ogros-de-Blood-Bowl-marca-Hungry-troll.jpg",
+      "strengths": ["6 ogros con fuerza 5", "Baratísimos snotlings"],
+      "weaknesses": [
+        "Los ogros tienen cabeza hueca",
+        "Los snotlings son muy frágiles",
+        "Rerrolls caros"
+      ],
+      "overview": "Los equipos Ogros son uno de los equipos más complicados de gestionar de este juego. Todos sabemos que la fuerza bruta es clave en este juego. ¿Puede haber algo mejor que poner seis jugadores grandes, duros y fuertes en la linea de Scrimage y machacar al rival? Quien sabe… Seis Ogros de fuerza 5 suman mucha fuerza en una linea de defensa, pero lamentablemente, también suman mucha estupidez. Puede que esa línea digna de hacer temblar al Orco más valiente se quede mirando el aleteo de una mosca, o como crece la hierba, mientras el rival se dedica a hacer un touchdown detrás de otro. El equipo de Ogros también tiene unos pequeños aliados para acabar de rellenar las plazas restantes. Son los Snotlings. El jugador más débil y frágil del juego, pero también el más barato. Empiezan con esquivar, canijo y echarse a un lado, buenas habilidades para darles movilidad. Pero no nos engañemos, la fuerza 1 y armadura 5 hace que cualquier golpe los mande a la enfermería."
     },
     {
       "id": "17",
-      "team": "Orc Teams",
+      "team": "Orcos",
       "logo": "https://bbtactics.com/images/orc.png",
       "players": [],
       "team-img": "",
@@ -1305,7 +2046,7 @@
     },
     {
       "id": "18",
-      "team": "Skaven Teams",
+      "team": "Skavens",
       "logo": "https://bbtactics.com/images/skaven.png",
       "players": [],
       "team-img": "",
@@ -1315,7 +2056,7 @@
     },
     {
       "id": "19",
-      "team": "Slann Teams",
+      "team": "Slann",
       "logo": "https://bbtactics.com/images/slann.png",
       "players": [],
       "team-img": "",
@@ -1325,7 +2066,7 @@
     },
     {
       "id": "20",
-      "team": "Undead Teams",
+      "team": "No muertos",
       "logo": "https://bbtactics.com/images/undead.png",
       "players": [],
       "team-img": "",
@@ -1335,7 +2076,7 @@
     },
     {
       "id": "21",
-      "team": "Vampire Teams",
+      "team": "Vampiros",
       "logo": "https://bbtactics.com/images/vampire.png",
       "players": [],
       "team-img": "",
@@ -1345,7 +2086,7 @@
     },
     {
       "id": "22",
-      "team": "Wood Elf Teams",
+      "team": "Elfos silvanos",
       "logo": "https://bbtactics.com/images/woodelf.png",
       "players": [],
       "team-img": "",
