@@ -2269,41 +2269,360 @@
       "id": "19",
       "team": "Slann",
       "logo": "https://bbtactics.com/images/slann.png",
-      "players": [],
-      "team-img": "",
-      "strengths": [],
-      "weaknesses": [],
+      "players": [
+        {
+          "position": "Línea",
+          "cost": 60000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 3,
+            "av": 8
+          },
+          "skills": ["Saltar", "Piernas muy largas"],
+          "max": 16,
+          "improvements": {
+            "normal": ["G"],
+            "double": ["A", "P", "F"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Receptor",
+          "cost": 80000,
+          "stats": {
+            "ma": 7,
+            "st": 2,
+            "ag": 4,
+            "av": 7
+          },
+          "skills": ["Recepción heroica", "Saltar", "Piernas muy largas"],
+          "max": 4,
+          "improvements": {
+            "normal": ["G", "A"],
+            "double": ["P", "F"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Blítzer",
+          "cost": 110000,
+          "stats": {
+            "ma": 7,
+            "st": 3,
+            "ag": 3,
+            "av": 8
+          },
+          "skills": [
+            "Placaje heroico",
+            "En pie de un salto",
+            "Saltar",
+            "Piernas muy largas"
+          ],
+          "max": 4,
+          "improvements": {
+            "normal": ["G", "A", "F"],
+            "double": ["P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Kroxigor",
+          "cost": 140000,
+          "stats": {
+            "ma": 6,
+            "st": 5,
+            "ag": 1,
+            "av": 9
+          },
+          "skills": [
+            "Solitario",
+            "Cabeza dura",
+            "Cabeza hueca",
+            "Golpe mortífero",
+            "Cola prensil"
+          ],
+          "max": 1,
+          "improvements": {
+            "normal": ["F"],
+            "double": ["G", "A", "P"]
+          },
+          "player-img": ""
+        }
+      ],
+      "team-img": "https://4.bp.blogspot.com/-13aqb2TXvbo/VCqOpLpZSPI/AAAAAAAACzM/Bsa431Ak9oo/s1600/Team%2B29.09.14.JPG",
+      "strengths": [
+        "Todos los jugadores con saltar de base",
+        "Mucha movilidad"
+      ],
+      "weaknesses": [
+        "Salvo el kroxigor, armadura más bien baja",
+        "Carecen de habilidades básicas de movel el balón",
+        "Blítzer sin placar"
+      ],
       "overview": ""
     },
     {
       "id": "20",
       "team": "No muertos",
       "logo": "https://bbtactics.com/images/undead.png",
-      "players": [],
-      "team-img": "",
-      "strengths": [],
-      "weaknesses": [],
-      "overview": ""
+      "players": [
+        {
+          "position": "Esqueleto",
+          "cost": 40000,
+          "stats": {
+            "ma": 5,
+            "st": 3,
+            "ag": 2,
+            "av": 7
+          },
+          "skills": ["Regeneración", "Cabeza dura"],
+          "max": 16,
+          "improvements": {
+            "normal": ["G"],
+            "double": ["P", "F", "A"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Zombi",
+          "cost": 40000,
+          "stats": {
+            "ma": 4,
+            "st": 3,
+            "ag": 2,
+            "av": 8
+          },
+          "skills": ["Regeneración"],
+          "max": 16,
+          "improvements": {
+            "normal": ["G"],
+            "double": ["P", "F", "A"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Necrófago",
+          "cost": 70000,
+          "stats": {
+            "ma": 7,
+            "st": 3,
+            "ag": 3,
+            "av": 7
+          },
+          "skills": ["Esquivar"],
+          "max": 4,
+          "improvements": {
+            "normal": ["G", "A"],
+            "double": ["P", "F"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Tumulario",
+          "cost": 90000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 3,
+            "av": 8
+          },
+          "skills": ["Placar", "Regeneración"],
+          "max": 2,
+          "improvements": {
+            "normal": ["G", "F"],
+            "double": ["P", "A"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Momia",
+          "cost": 120000,
+          "stats": {
+            "ma": 3,
+            "st": 5,
+            "ag": 1,
+            "av": 9
+          },
+          "skills": ["Golpe mortífero", "Regeneración"],
+          "max": 2,
+          "improvements": {
+            "normal": ["F"],
+            "double": ["P", "G", "A"]
+          },
+          "player-img": ""
+        }
+      ],
+      "team-img": "https://cbaggery.files.wordpress.com/2014/12/undead_team.jpg",
+      "strengths": [
+        "Tumularios y momias muy buenos",
+        "Jugadores baratos para la línea",
+        "Muchos jugadores con regenerar"
+      ],
+      "weaknesses": [
+        "Necrófagos frágiles",
+        "Sin ball-carrier definido",
+        "Rerrolls muy caros"
+      ],
+      "overview": "Los No Muertos son, sin duda, uno de los equipos más violentos del Blood Bowl. Sus dos tumularios con placar son eficientes desde el primer día placando, y las momias, pese a mover solo 3 no necesitan pasar dos veces por el mismo sitio para tener la certeza que no dejan nada vivo detras de si. Además, disponen de jugadores baratos y eficientes para la linea como los zombis, o los esqueletos si prefieres mover un poco más sacrificando armadura. Todo esto mientras 4 necrófagos van moviendo el balón por el campo, con su habilidad esquivar desde el primer día y moviendo 7. Por desgracia para los necrófagos, los únicos del equipo sin regenerar, los No Muertos no pueden tener médicos, y dado que son los que probablemente lleven el balón, este es un hecho que debería preocuparles seriamente. Por esta razón, cuanto más gloriosa sea la carrera deportiva de un necrófago, menos probabilidades habrá de que sea muy larga… Otra desventaja de este equipo son los caros rerolls, 70.000 monedas de oro cada uno. Esto hace que tengamos que ir con cuidado a la hora de mover el balón, ya que no disponemos de habilidades como manos seguras, pasar o atrapar, al menos no desde el principio, y esto puede pasar factura a los no muertos si no planean bien sus jugadas."
     },
     {
       "id": "21",
       "team": "Vampiros",
       "logo": "https://bbtactics.com/images/vampire.png",
-      "players": [],
-      "team-img": "",
-      "strengths": [],
-      "weaknesses": [],
-      "overview": ""
+      "players": [
+        {
+          "position": "Siervo",
+          "cost": 40000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 3,
+            "av": 7
+          },
+          "skills": [],
+          "max": 16,
+          "improvements": {
+            "normal": ["G"],
+            "double": ["P", "F", "A"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Vampiro",
+          "cost": 110000,
+          "stats": {
+            "ma": 6,
+            "st": 4,
+            "ag": 4,
+            "av": 8
+          },
+          "skills": ["Sed de sangre", "Mirada hipnótica", "Regeneración"],
+          "max": 6,
+          "improvements": {
+            "normal": ["G", "F", "A"],
+            "double": ["P"]
+          },
+          "player-img": ""
+        }
+      ],
+      "team-img": "https://www.coolminiornot.com/pics/pics16/img4fbe7d0817d03.jpg",
+      "strengths": [
+        "6 vampiros de fuerza 4 y agilidad 4",
+        "Siervos baratos",
+        "Habilidad mirada hipnótica"
+      ],
+      "weaknesses": [
+        "Sed de sangre",
+        "Rerrolls muy caros",
+        "Sin posicionales claros",
+        "Empiezan con pocas habilidades"
+      ],
+      "overview": "Los Vampiros són uno de los equipos con los mejores stats del juego. La posibilidad de alinear 6 jugadores con Fuerza 4 y Agilidad 4 es todo un lujo. Además tienen como habilidad la Mirada Hipnótica, ideal para abrir cajas y sacudir al ballcarrier contrario sin preocuparse por sus guardaespaldas. Un sinfin de posibilidades se abren al combinar estos buenos stats y esta gran habilidad. Además, los lineas de este equipo, los siervos, son jugadores muy baratos, lo cual nos facilita el complementar el equipo. Sin embargo, esto se puede ver torcido por el hecho de que los vampiros sufren la sed de sangre. Eso les hace tener que tirar cada vez que realizan alguna acción, y dependiendo de la tirada, deberán morder a alguno de sus siervos si no quieren irse del campo sedientos de sangre. Este bonus negativo, junto al hecho de que los siervos tienen una baja armadura, hace que los equipos de Vampiros sean capaces de lo mejor, pero también de lo peor. La posibilidad de tirar por el suelo en un turno lo que habías construido en todo un pertido existe, y con vampiros nunca se sabe que puede ocurrir. Además, cualquier fallo o error en las tiradas se paga muy caro con este equipo, ya que los rerolls cuestan 70.000 monedas de oro, un precio desorbitado si tenemos en cuenta las tiradas que ha de hacer este equipo.Junto con todo esto, el equipo de vampiros no dispone ni de lanzadores, ni receptores, ni corredores ni jugadores enfocados a una tarea concreta. Los siervos empiezan sin habilidades, y los Vampiros, salvo sed de sangre y mirada hipnótica, tampoco tienen ninguna habilidad posicional. Lo cual hace que debamos especializar algunos jugadores en tareas para las que no fueron entrenados. Todo esto nos enfoca a pensar que este equipo está pensado para plantear un reto a los entrenadores más experimentados. Sin duda, este será un equipo que hara que entrenadores excelentes se expriman la cabeza para buscar una táctica ganadora, eso si, con un gran nivel de diversión."
     },
     {
       "id": "22",
       "team": "Elfos silvanos",
       "logo": "https://bbtactics.com/images/woodelf.png",
-      "players": [],
-      "team-img": "",
-      "strengths": ["Fast", "Agile", "Wardancers"],
-      "weaknesses": ["Expensive", "Fragile"],
-      "overview": "Wood elves are the second fastest race in the game, combine that with their elven agility they are very good at moving the ball about the pitch. All the players can be a potential scoring threat and this is what makes them a dangerous opponent. They are also the only elven team that has access to a big guy player. Of course it isn’t all good and the wood elf players tend to be quite fragile. They have low armour and their starting skills and stats are more orientated towards the ball rather than hitting the other team. The Treeman does a good job of soaking up some of the pressure and the players are agile enough to run away if needed. Their players are expensive however and you need to be careful with protecting them on the pitch. They also posses one of the best players in the game which is the Wardancer. The Wardancer comes with great starting skills and as a result they have a big target on them for the opposition. As a beginner team their speed and agility can help get out of bad spots when it comes to handling the ball and scoring. However their high cost and fragility can leave you with few players left to use which can make it really tough to play. I would say that perhaps they aren’t the best team to start out with becuase of this."
+      "players": [
+        {
+          "position": "Línea",
+          "cost": 70000,
+          "stats": {
+            "ma": 7,
+            "st": 3,
+            "ag": 4,
+            "av": 7
+          },
+          "skills": [],
+          "max": 16,
+          "improvements": {
+            "normal": ["G", "A"],
+            "double": ["P", "F"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Receptor",
+          "cost": 90000,
+          "stats": {
+            "ma": 8,
+            "st": 2,
+            "ag": 4,
+            "av": 7
+          },
+          "skills": ["Atrapar", "Esquivar", "Carrera"],
+          "max": 4,
+          "improvements": {
+            "normal": ["G", "A"],
+            "double": ["P", "F"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Lanzador",
+          "cost": 90000,
+          "stats": {
+            "ma": 7,
+            "st": 3,
+            "ag": 4,
+            "av": 7
+          },
+          "skills": ["Pasar"],
+          "max": 2,
+          "improvements": {
+            "normal": ["G", "P", "A"],
+            "double": ["F"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Bailarín guerrero",
+          "cost": 120000,
+          "stats": {
+            "ma": 8,
+            "st": 3,
+            "ag": 4,
+            "av": 7
+          },
+          "skills": ["Placar", "Esquivar", "Saltar"],
+          "max": 2,
+          "improvements": {
+            "normal": ["G", "A"],
+            "double": ["P", "F"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Hombre árbol",
+          "cost": 120000,
+          "stats": {
+            "ma": 2,
+            "st": 6,
+            "ag": 1,
+            "av": 10
+          },
+          "skills": [
+            "Solitario",
+            "Golpe mortífero",
+            "Mantenerse firme",
+            "Brazo fuerte",
+            "Echar raíces",
+            "Cabeza dura",
+            "Lanzar compañero de equipo"
+          ],
+          "max": 1,
+          "improvements": {
+            "normal": ["F"],
+            "double": ["P", "G", "A"]
+          },
+          "player-img": ""
+        }
+      ],
+      "team-img": "https://www.paintingforglory.com/wp-content/uploads/2018/12/Elfos-silvanos-willy-mini3.jpg",
+      "strengths": ["Rapidez", "Agilidad", "Bailarines guerreros"],
+      "weaknesses": ["Fragilidad", "Son caros"],
+      "overview": "Los elfos silvanos son el segundo equipo más rápido del juego, y combinando eso con agilidad 4 son una maquina perfecta de mover el balón por el campo. Cualquier jugador elfo silvano es un potencial anotador, y además los silvanos son el único equipo elfo con Big Guy. Los elfos silvanos disponen de dos Bailarines Guerreros, con el potente combo Placar-Esquivar desde el primer momento.Pero no todo son ventajas. Los silvanos son caros, y lo peor de todo, su armadura 7 les hace ser muy frágiles. Si piensas ser el manager de un equipo de silvanos deberás estar preparado para jugar con menos jugadores que el rival, sobre todo si juegas contra equipos que peguen duro."
     }
   ]
 }
