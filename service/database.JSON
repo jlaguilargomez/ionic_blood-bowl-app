@@ -2038,21 +2038,232 @@
       "id": "17",
       "team": "Orcos",
       "logo": "https://bbtactics.com/images/orc.png",
-      "players": [],
-      "team-img": "",
-      "strengths": [],
-      "weaknesses": [],
-      "overview": ""
+      "players": [
+        {
+          "position": "Línea",
+          "cost": 50000,
+          "stats": {
+            "ma": 5,
+            "st": 3,
+            "ag": 3,
+            "av": 9
+          },
+          "skills": [],
+          "max": 16,
+          "improvements": {
+            "normal": ["G"],
+            "double": ["F", "A", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Goblin",
+          "cost": 40000,
+          "stats": {
+            "ma": 6,
+            "st": 2,
+            "ag": 3,
+            "av": 7
+          },
+          "skills": ["Agilidad felina", "Esquivar", "Escurridizo"],
+          "max": 4,
+          "improvements": {
+            "normal": ["A"],
+            "double": ["F", "G", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Lanzador",
+          "cost": 70000,
+          "stats": {
+            "ma": 5,
+            "st": 3,
+            "ag": 3,
+            "av": 8
+          },
+          "skills": ["Manos seguras", "Pasar"],
+          "max": 2,
+          "improvements": {
+            "normal": ["G", "P"],
+            "double": ["F", "A"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Defensa orco negro",
+          "cost": 80000,
+          "stats": {
+            "ma": 4,
+            "st": 4,
+            "ag": 2,
+            "av": 9
+          },
+          "skills": [],
+          "max": 4,
+          "improvements": {
+            "normal": ["F", "G"],
+            "double": ["A", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Blítzer",
+          "cost": 80000,
+          "stats": {
+            "ma": 6,
+            "st": 3,
+            "ag": 3,
+            "av": 9
+          },
+          "skills": ["Placar"],
+          "max": 4,
+          "improvements": {
+            "normal": ["F", "G"],
+            "double": ["A", "P"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Troll",
+          "cost": 110000,
+          "stats": {
+            "ma": 4,
+            "st": 5,
+            "ag": 1,
+            "av": 9
+          },
+          "skills": [
+            "Solitario",
+            "Siempre hambriento",
+            "Golpe mortífero",
+            "Realmente estúpido",
+            "Regeneración",
+            "Lanzar compañero de equipo"
+          ],
+          "max": 1,
+          "improvements": {
+            "normal": ["F"],
+            "double": ["A", "P", "G"]
+          },
+          "player-img": ""
+        }
+      ],
+      "team-img": "https://3.bp.blogspot.com/-nUOgDAzw7cU/W637UVfCDlI/AAAAAAAAGPA/jqmaNftE0-Ug08S3NV_TitQ5ctc1twVVQCLcBGAs/s640/Equipo%2BOrcos%2BBlood%2BBowl%2B-%2Bresolucion_media.jpg",
+      "strengths": [
+        "Fuerza",
+        "Alta armadura",
+        "Jugadores moderadamente baratos"
+      ],
+      "weaknesses": ["Jugadores lentos", "Sin receptores natos"],
+      "overview": "Los Orcos són una raza muy contundente, resistente y versátil. Su especialidad es la fuerza, pero teniendo un lanzador con pasar de entrada y blitzers con agilidad 3, no és imposible replantear una jugada y acabar haciendo un pase. Sin embargo, su juego se centra en hacer una buena caja y avanzar turno a turno con su fuerza bruta, usando en algunos casos la más que aceptable velocidad de sus blitzers para escapadas puntuales. También cabe destacar que de entrada dispone de 4 jugadores con fuerza 4 (aunque sin habilidades) y de un Big Guy, que aunque no sea de los mejores Big Guys del juego, nunca está de más un jugador con fuerza 5 en el campo repartiendo cariño entre los rivales. Además puedes lanzar Goblins, un deporte que va ganando adeptos nuevos cada día! Por contra, los orcos son un equipo bastante lento, los Orcos Negros mueven 4 y los Líneas y Lanzadores 5. Además, pese a que el lanzador puede hacer buenos pases con un par de subidas, no hay ningún receptor nato, así que el juego de pase no suele ser una buena idea."
     },
     {
       "id": "18",
       "team": "Skavens",
       "logo": "https://bbtactics.com/images/skaven.png",
-      "players": [],
-      "team-img": "",
-      "strengths": [],
-      "weaknesses": [],
-      "overview": ""
+      "players": [
+        {
+          "position": "Línea",
+          "cost": 50000,
+          "stats": {
+            "ma": 7,
+            "st": 3,
+            "ag": 3,
+            "av": 7
+          },
+          "skills": [],
+          "max": 16,
+          "improvements": {
+            "normal": ["G"],
+            "double": ["F", "A", "P", "M"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Lanzador",
+          "cost": 70000,
+          "stats": {
+            "ma": 7,
+            "st": 3,
+            "ag": 3,
+            "av": 7
+          },
+          "skills": ["Pasar", "Manos seguras"],
+          "max": 2,
+          "improvements": {
+            "normal": ["P", "G"],
+            "double": ["A", "F", "M"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Corredor de alcantarilla",
+          "cost": 80000,
+          "stats": {
+            "ma": 9,
+            "st": 2,
+            "ag": 4,
+            "av": 7
+          },
+          "skills": ["Esquivar"],
+          "max": 4,
+          "improvements": {
+            "normal": ["A", "G"],
+            "double": ["F", "P", "M"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Blítzer",
+          "cost": 90000,
+          "stats": {
+            "ma": 7,
+            "st": 3,
+            "ag": 3,
+            "av": 8
+          },
+          "skills": ["Placar"],
+          "max": 2,
+          "improvements": {
+            "normal": ["F", "G"],
+            "double": ["A", "P", "M"]
+          },
+          "player-img": ""
+        },
+        {
+          "position": "Rata ogro",
+          "cost": 150000,
+          "stats": {
+            "ma": 6,
+            "st": 5,
+            "ag": 2,
+            "av": 8
+          },
+          "skills": [
+            "Solitario",
+            "Furia",
+            "Golpe mortífero",
+            "Cola prensil",
+            "Animal salvaje"
+          ],
+          "max": 4,
+          "improvements": {
+            "normal": ["F"],
+            "double": ["A", "P", "G", "M"]
+          },
+          "player-img": ""
+        }
+      ],
+      "team-img": "http://1.bp.blogspot.com/-LtpM-nDjpyg/URzhDKhH-aI/AAAAAAAADFo/mxnYmuY1OxA/s640/Skavens+Blood+Bowl.jpg",
+      "strengths": [
+        "Son muy rápidos",
+        "No son caros",
+        "Acceso a mutaciones",
+        "Excelentes corredores de alcantarilla"
+      ],
+      "weaknesses": ["Frágiles", "Menos agilidad que otros equipos rápidos"],
+      "overview": "Los Skaven son, sin dudarlo, el equipo más rápido de Blood Bowl que podamos encontrar. El jugador más lento de este equipo es una Rata Ogro que mueve 6 y tiene fuerza 5. Con esto queda dicho todo. Con Skavens dispondremos de 4 Corredores de Alcantarilla con movimiento 9, tienen fuerza 2, pero eso no importa, ya que dificilmente alguien podrá atraparlos para placarlos. Además empiezan con esquivar y tienen agilidad 4, lo que les da una movilidad espectacular y les convierte, sin duda, en uno de los mejores jugadores del juego. Luego tenemos dos blitzers, con placar y acceso a habilidades de fuerza, los huesos duros del equipo. También tenemos otra ventaja con este equipo, y es que, aunque sea con dobles, tienen acceso a mutaciones. Con la correcta combinación del uso de habilidades normales y mutaciones este equipo puede convertirse en una espectacular máquina de marcar touchdowns en décimas de segundo. Y, para hacerlo accesible a todos los bolsillos, los Skaven son bastante baratos, sobre todo en la relación calidad/precio, que es muy alta. Sin embargo, hay que hablar también de los contras de este equipo. La mayoria de jugadores son muy frágiles, pues tienen armadura 7. Son muy rápidos y difíciles de cazar, pero si los pillan pasaran por la enfermería casi seguro. Además, dado que los corredores de alcantarilla tienen fuerza 2, suelen ser blancos fijos de los rivales, ya que no necesitan mucha fuerza para placarlos, y debido a su baja armadura, pueden eliminarlos con rapidez del campo. Hay que ir con cuidado y protegerlos bien, ya que son nuestro mejor jugador sin lugar a dudas. Otra desvetaja frente a otros equipos rápidos, como los elfos silvanos, es que salvo los corredores de alcantarilla, nuestros jugadores no tienen agilidad 4, lo que hace que no puedan salir de zonas de defensa con la misma facilidad, y se exponen más a placajes del rival."
     },
     {
       "id": "19",
