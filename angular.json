@@ -20,6 +20,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
+              "src/assets",
               {
                 "glob": "**/*",
                 "input": "src/assets",
@@ -36,7 +37,7 @@
                 "input": "src/theme/variables.scss"
               },
               {
-                "input": "src/global.scss"
+                "input": "src/theme/global.scss"
               }
             ],
             "scripts": []
@@ -128,9 +129,7 @@
               "tsconfig.spec.json",
               "e2e/tsconfig.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         },
         "e2e": {

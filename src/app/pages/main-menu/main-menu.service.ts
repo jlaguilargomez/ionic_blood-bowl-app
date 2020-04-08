@@ -18,7 +18,7 @@ export class MainMenuService {
     },
     {
       img: 'assets/img/main-menu/skills_img.png',
-      text: 'habilidades',
+      text: 'Habilidades',
       link: '/skills',
     },
     {
