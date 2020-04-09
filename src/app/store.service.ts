@@ -11,7 +11,7 @@ export interface SkillType {
 }
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class Store {
   private subjectSkillData = new BehaviorSubject<SkillData[]>([]);

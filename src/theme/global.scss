@@ -26,8 +26,12 @@
 @import '~@ionic/angular/css/flex-utils.css';
 
 // FONTS
-
 @import './fonts/fonts';
+
+// GLOBAL
+
+@import 'styles/base';
+
 ion-content {
   --background: #dcd9d1;
   // --padding-top: 10vh;

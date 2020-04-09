@@ -1,3 +1,25 @@
-.player-stats {
-  border: 1px solid green;
+.player {
+  &__position {
+    font-family: Lato;
+    font-weight: bold;
+  }
+  &__stats {
+    width: 50%;
+  }
+}
+
+.stats {
+  &__table {
+    padding: 10px;
+    width: 100%;
+  }
+
+  &__row {
+  }
+  &__col {
+    text-align: center;
+
+    &--number {
+    }
+  }
 }

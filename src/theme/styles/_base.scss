@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+  // margin: 0;
+  // padding: 0;
+  /* Hereda del body la propiedad */
+  box-sizing: inherit;
+}
+
+html {
+  /* Con esto establecemos un font-size de 10px para toda la página, que puede ser luego establecida proporcionalmente mediante REM. Así se puede modificar desde el navegador */
+  font-size: 62.5%;
+}
+
+body {
+  background: #ececec;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  box-sizing: border-box;
+}

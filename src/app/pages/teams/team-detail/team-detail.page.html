@@ -18,9 +18,24 @@
         <img src="./avatar-finn.png" />
       </ion-avatar>
       <ion-label>
-        <h2>{{player.position}}</h2>
-        <h3>{{player.cost}}</h3>
-        <div class="player-stats"></div>
+        <h2 class="player__position">{{player.position}}</h2>
+        <h3>Coste: {{player.cost}}</h3>
+        <div class="player__stats">
+          <table class="stats__table">
+            <tr class="stats__row">
+              <th class="stats__col">MA</th>
+              <th class="stats__col">ST</th>
+              <th class="stats__col">AG</th>
+              <th class="stats__col">AV</th>
+            </tr>
+            <tr class="stats__row">
+              <td class="stats__col--number">1</td>
+              <td class="stats__col--number">2</td>
+              <td class="stats__col--number">3</td>
+              <td class="stats__col--number">4</td>
+            </tr>
+          </table>
+        </div>
       </ion-label>
     </ion-item>
   </ion-list>
