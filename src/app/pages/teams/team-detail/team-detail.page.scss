@@ -1,7 +1,7 @@
 .player {
   &__position {
-    font-family: Lato;
     font-weight: bold;
+    text-transform: uppercase;
   }
   &__stats {
     width: 50%;
@@ -20,6 +20,7 @@
     text-align: center;
 
     &--number {
+      text-align: center;
     }
   }
 }
