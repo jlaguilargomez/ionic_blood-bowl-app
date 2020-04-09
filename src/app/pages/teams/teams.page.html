@@ -9,7 +9,11 @@
   ></app-ribbon-title>
 
   <div class="list">
-    <ion-item class="ion-margin ion-text-center" *ngFor="let team of teamData">
+    <ion-item
+      class="ion-margin ion-text-center"
+      *ngFor="let team of teamData"
+      routerLink="{{team.url}}"
+    >
       <ion-avatar slot="start">
         <img src="{{team.img}}" />
       </ion-avatar>

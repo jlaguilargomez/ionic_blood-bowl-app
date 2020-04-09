@@ -8,7 +8,7 @@ import { map } from 'rxjs/operators';
   styleUrls: ['./teams.page.scss'],
 })
 export class TeamsPage implements OnInit {
-  teamData: Array<{ name: string; img: string }>;
+  teamData: Array<{ name: string; img: string; url: string }>;
   ribbonText = 'Equipos';
   constructor(private store: Store) {}
 
@@ -17,9 +17,11 @@ export class TeamsPage implements OnInit {
       .pipe(
         map((res) =>
           res.map((team) => {
+            const url = team.team.toLocaleLowerCase();
             return {
               name: team.team,
               img: team.logo,
+              url,
             };
           })
         )
