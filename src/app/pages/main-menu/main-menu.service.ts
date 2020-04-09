@@ -18,7 +18,7 @@ export class MainMenuService {
     },
     {
       img: 'assets/img/main-menu/skills_img.png',
-      text: 'Habilidades',
+      text: 'Skills',
       link: '/skills',
     },
     {
@@ -30,11 +30,6 @@ export class MainMenuService {
       img: 'assets/img/main-menu/touchdown.jpg',
       text: 'tablas',
       link: '/boards',
-    },
-    {
-      img: 'assets/img/main-menu/resources_img.jpg',
-      text: 'recursos',
-      link: '/resources',
     },
   ];
 
