@@ -6,6 +6,15 @@
   ><app-ribbon-title
     [inputText]="ribbonText"
     class="ion-text-center"
-  ></app-ribbon-title
-></ion-content>
+  ></app-ribbon-title>
+
+  <div class="list">
+    <ion-item class="ion-margin ion-text-center" *ngFor="let team of teamData">
+      <ion-avatar slot="start">
+        <img src="{{team.img}}" />
+      </ion-avatar>
+      <ion-label>{{team.name}}</ion-label>
+    </ion-item>
+  </div>
+</ion-content>
 <app-back-btn></app-back-btn>

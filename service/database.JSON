@@ -485,7 +485,7 @@
     {
       "id": "1",
       "team": "Amazonas",
-      "logo": "https://bbtactics.com/images/amazon.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Famazon.png?alt=media&token=1c6f9d07-4440-4009-9a85-ac87a9d629a7",
       "players": [
         {
           "position": "Linea",
@@ -568,7 +568,7 @@
     {
       "id": "2",
       "team": "Enanos del caos",
-      "logo": "https://bbtactics.com/images/chaosdwarf.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Fchaosdwarf.png?alt=media&token=034e96cf-9218-456d-9dfb-b39d244ed0bf",
       "players": [
         {
           "position": "Hobgoblin",
@@ -662,7 +662,7 @@
     {
       "id": "3",
       "team": "Pacto del caos",
-      "logo": "https://bbtactics.com/images/chaospact.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Fchaospact.png?alt=media&token=d8e28799-d92f-4088-89cb-7e4a7dfb8ae3",
       "players": [
         {
           "position": "Barbaro del caos",
@@ -833,7 +833,7 @@
     {
       "id": "4",
       "team": "Caos",
-      "logo": "https://bbtactics.com/images/chaos.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Fchaos.png?alt=media&token=340ffaa9-5ab6-4d70-920d-a3f66cbbb988",
       "players": [
         {
           "position": "Hombre bestia",
@@ -911,7 +911,7 @@
     {
       "id": "5",
       "team": "Elfos oscuros",
-      "logo": "https://bbtactics.com/images/darkelf.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Fdarkelf.png?alt=media&token=ba862383-e38a-484d-8cfc-bacff951d627",
       "players": [
         {
           "position": "Linea",
@@ -1011,7 +1011,7 @@
     {
       "id": "6",
       "team": "Enanos",
-      "logo": "https://bbtactics.com/images/dwarf.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Fdwarf.png?alt=media&token=3bdd6d24-ce34-41ab-bdf8-5130b7bdf953",
       "players": [
         {
           "position": "Defensa",
@@ -1123,7 +1123,7 @@
     {
       "id": "7",
       "team": "Elfos profesionales",
-      "logo": "https://bbtactics.com/images/elf.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Felf.png?alt=media&token=6c546792-3ebf-443c-a4a0-07aa22e2bb20",
       "players": [
         {
           "position": "Linea",
@@ -1206,7 +1206,7 @@
     {
       "id": "8",
       "team": "Goblins",
-      "logo": "https://bbtactics.com/images/goblin.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Fgoblin.png?alt=media&token=05f43628-eca1-4c88-9913-ea1f06f6e87e",
       "players": [
         {
           "position": "Goblin",
@@ -1339,7 +1339,7 @@
     {
       "id": "9",
       "team": "Haflings",
-      "logo": "https://bbtactics.com/images/halfling.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Fhalfling.png?alt=media&token=bb6830ad-b13e-480d-b250-ab6d9460ffca",
       "players": [
         {
           "position": "Hafling",
@@ -1399,7 +1399,7 @@
     {
       "id": "10",
       "team": "Altos elfos",
-      "logo": "https://bbtactics.com/images/highelf.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Fhighelf.png?alt=media&token=9d566f06-e962-436b-9119-dbab1925072c",
       "players": [
         {
           "position": "Línea",
@@ -1482,7 +1482,7 @@
     {
       "id": "11",
       "team": "Humanos",
-      "logo": "https://bbtactics.com/images/human.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Fhuman.png?alt=media&token=57240d2a-de65-4b0b-9e29-6ac4d140d840",
       "players": [
         {
           "position": "Línea",
@@ -1591,7 +1591,7 @@
     {
       "id": "12",
       "team": "Khemri",
-      "logo": "https://bbtactics.com/images/khemri.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Fkhemri.png?alt=media&token=3b3594c2-a7a9-4a1e-be1e-a1adb41f4cf0",
       "players": [
         {
           "position": "Esqueleto",
@@ -1678,7 +1678,7 @@
     {
       "id": "13",
       "team": "Hombres lagarto",
-      "logo": "https://bbtactics.com/images/lizardmen.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Flizardmen.png?alt=media&token=bef70b87-d876-482c-92dc-8f1c6236fe0d",
       "players": [
         {
           "position": "Eslizón",
@@ -1754,7 +1754,7 @@
     {
       "id": "14",
       "team": "Nórdicos",
-      "logo": "https://bbtactics.com/images/norse.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Fnorse.png?alt=media&token=cf3db811-a16d-452a-b7e4-28dfdd5af085",
       "players": [
         {
           "position": "Línea",
@@ -1876,7 +1876,7 @@
     {
       "id": "15",
       "team": "Nurgle",
-      "logo": "https://bbtactics.com/images/nurgle.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Fnurgle.png?alt=media&token=0afc9a39-fd92-4b51-a75b-c6d5723f0f49",
       "players": [
         {
           "position": "Putrefacto",
@@ -1977,7 +1977,7 @@
     {
       "id": "16",
       "team": "Ogros",
-      "logo": "https://bbtactics.com/images/ogre.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Fogre.png?alt=media&token=c82df697-c52f-4203-9c3b-ae57f14a5f2d",
       "players": [
         {
           "position": "Snotling",
@@ -2037,7 +2037,7 @@
     {
       "id": "17",
       "team": "Orcos",
-      "logo": "https://bbtactics.com/images/orc.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Forc.png?alt=media&token=e21ebfc0-3639-4052-b71f-436731fb306a",
       "players": [
         {
           "position": "Línea",
@@ -2161,7 +2161,7 @@
     {
       "id": "18",
       "team": "Skavens",
-      "logo": "https://bbtactics.com/images/skaven.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Fskaven.png?alt=media&token=a31920e3-b13a-459e-bc2a-8889ce16ff2a",
       "players": [
         {
           "position": "Línea",
@@ -2268,7 +2268,7 @@
     {
       "id": "19",
       "team": "Slann",
-      "logo": "https://bbtactics.com/images/slann.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Fslann.png?alt=media&token=c43f1022-be8a-47a6-b111-5c717f6c2034",
       "players": [
         {
           "position": "Línea",
@@ -2365,7 +2365,7 @@
     {
       "id": "20",
       "team": "No muertos",
-      "logo": "https://bbtactics.com/images/undead.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Fundead.png?alt=media&token=13451edc-a5db-4f04-a7cc-7fbb5b34524f",
       "players": [
         {
           "position": "Esqueleto",
@@ -2469,7 +2469,7 @@
     {
       "id": "21",
       "team": "Vampiros",
-      "logo": "https://bbtactics.com/images/vampire.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Fvampire.png?alt=media&token=5e3e7123-032d-4b68-a822-0e57a26502ef",
       "players": [
         {
           "position": "Siervo",
@@ -2523,7 +2523,7 @@
     {
       "id": "22",
       "team": "Elfos silvanos",
-      "logo": "https://bbtactics.com/images/woodelf.png",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Fwoodelf.png?alt=media&token=f84a48b9-f59e-4724-9c24-822cf0d4cb4d",
       "players": [
         {
           "position": "Línea",
@@ -2689,7 +2689,7 @@
     {
       "id": "24",
       "team": "Inframundo",
-      "logo": "http://www.losprincipios.org/images/default.jpg",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/blood-bowl-app.appspot.com/o/teams-icons%2Funderworld.png?alt=media&token=0e4b9521-4536-47b0-84f6-43b34a24ff93",
       "players": [
         {
           "position": "Goblin",
