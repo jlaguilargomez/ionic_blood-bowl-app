@@ -28,7 +28,6 @@ export class TeamsPage implements OnInit {
       )
       .subscribe((res) => {
         this.teamData = res;
-        console.log(this.teamData);
       });
   }
 }

@@ -7,5 +7,23 @@
     [inputText]="selectedTeam"
     class="ion-text-center"
   ></app-ribbon-title>
+
+  <ion-card>
+    <img src="{{selectedTeamData['team-img']}}" alt="" srcset="" />
+  </ion-card>
+
+  <ion-list *ngFor="let player of selectedTeamData.players">
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="./avatar-finn.png" />
+      </ion-avatar>
+      <ion-label>
+        <h2>{{player.position}}</h2>
+        <h3>{{player.cost}}</h3>
+        <div class="player-stats"></div>
+      </ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>
+
 <app-back-btn></app-back-btn>
